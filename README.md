@@ -22,3 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+# ICON ATTRIBUTIONS
+    * https://www.flaticon.com/free-icons/linkedin Linkedin icons created by Freepik - Flaticon
+    * https://www.flaticon.com/free-icons/github" Github icons created by Pixel perfect - Flaticon
+    * https://www.flaticon.com/free-icons/person" Person icons created by Lizel Arina - Flaticon
