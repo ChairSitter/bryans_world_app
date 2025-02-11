@@ -25,5 +25,7 @@ module BryansWorldApp
     # config.eager_load_paths << Rails.root.join("extras")
     config.assets.enabled = true
     config.assets.paths << Rails.root.join("app", "assets", "stylesheets")
+    config.assets.paths << Rails.root.join("app", "assets", "images")
+    config.assets.paths << Rails.root.join("app", "assets", "javascript")
   end
 end
