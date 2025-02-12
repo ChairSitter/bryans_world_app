@@ -1,14 +1,18 @@
 header {
-    background-color: darkblue;
     display: flex;
     justify-content: center;
+    border-bottom: 20px solid black;
+    background-image: linear-gradient(to bottom, darkblue, darkblue, darkblue, black);
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 75px;
     font-family: roboto;
     margin: 20px;
+    color: white;
+    text-shadow: 2px 2px gray;
 }
+
 nav > div {
     display: flex;
     justify-content: space-evenly;
@@ -18,11 +22,33 @@ div > a {
     background-color: gray;
     padding: 10px;
     border-radius: 3%;
-    margin: 30px;
+    margin: 20px;
+}
+
+#header-img {
+    display: flex;
+    justify-content: center;
+}
+
+#header-img > img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 5px solid black;
 }
 
 main {
     margin: 0;
     padding-left: 300px;
     padding-right: 300px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 20px solid black;
+    background-image: linear-gradient(to top, darkblue, black);
 }
