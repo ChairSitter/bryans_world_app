@@ -1,7 +1,8 @@
 header {
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(to bottom, rgb(55, 146, 177), black);
+    background-image: linear-gradient(to top, rgb(55, 146, 177), black);
+    border-bottom: 3px black solid;
 }
 
 /*Complementary color rgb(200, 109, 78)*/
@@ -45,8 +46,7 @@ nav > div {
 }
 
 #main-div {
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
     margin-left: 300px;
     margin-right: 300px;
     padding: 20px;
@@ -64,7 +64,8 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-image: linear-gradient(to top, rgb(55, 146, 177), black);
+    background-image: linear-gradient(to bottom, rgb(55, 146, 177), black);
+    border-top: 3px black solid;
 }
 
 a > img {
