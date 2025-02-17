@@ -1,3 +1,5 @@
+/*Header*/
+
 header {
     display: flex;
     justify-content: center;
@@ -7,7 +9,7 @@ header {
 
 /*Complementary color rgb(200, 109, 78)*/
 
-h1 {
+#header-img > h1 {
     font-size: 75px;
     font-family: roboto;
     color: white;
@@ -45,7 +47,13 @@ nav > div {
     filter: grayscale(100%);
 }
 
-#main-div {
+#header-img > img:hover {
+    filter: grayscale(0%);
+}
+
+/*Welcome Page*/
+
+#welcome {
     margin-top: 50px;
     margin-left: 300px;
     margin-right: 300px;
@@ -54,9 +62,37 @@ nav > div {
     border: 1px dotted black;
 }
 
-#main-div > p {
+#welcome > p {
     font-size: 25px;
 }
+
+/*Hobbies Page*/
+
+#hobbies {
+    margin: 30px;
+    padding: 10px;
+}
+
+#hobbies-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+#hobbies-grid > div {
+    background-color: rgb(211, 211, 211);
+    border: 1px dotted black;
+    padding: 30px;
+}
+
+#hobbies-grid > div > img {
+    width: 320px;
+    height: auto;
+    margin: 15px;
+}
+
+/*Footer*/
 
 footer {
     display: flex;
@@ -64,7 +100,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-image: linear-gradient(to bottom, rgb(55, 146, 177), black);
+    background-image: linear-gradient(to bottom, rgb(55, 146, 177), rgb(55, 146, 177), black);
     border-top: 3px black solid;
 }
 
