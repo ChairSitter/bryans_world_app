@@ -21,7 +21,7 @@
     <link rel="apple-touch-icon" href="/icon.png">
 
     <%# Includes all stylesheet files in app/assets/stylesheets %>
-    <%= stylesheet_link_tag :app, "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag :app, "data-turbo-track": "reload", media: "all"  %>
     <%= javascript_importmap_tags %>
   </head>
 
@@ -34,9 +34,9 @@
               <h1>WORLD</h1>
           </div>
           <div class="nav-buttons">
-              <%= link_to "WELCOME", welcome_path %>
-              <%= link_to "HOBBIES", hobbies_path %>
-              <%= link_to "MINDFULNESS", mindfulness_path %>
+              <%= link_to "WELCOME", welcome_path, "data-turbo-prefetch": "false" %>
+              <%= link_to "HOBBIES", hobbies_path, "data-turbo-prefetch": "false" %>
+              <%= link_to "MINDFULNESS", mindfulness_path, "data-turbo-prefetch": "false" %>
               <a>COMMENT</a>
           </div>
       </nav>
