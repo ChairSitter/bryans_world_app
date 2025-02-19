@@ -1,12 +1,17 @@
+/*General*/
+/*Complementary color rgb(200, 109, 78)*/
+body {
+     overflow-y: scroll;
+} 
+
 /*Header*/
 header {
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(to top, rgb(55, 146, 177), black);
+    background-image: linear-gradient(to top, rgb(55, 146, 177), black, black);
     border-bottom: 3px black solid;
 }
 
-/*Complementary color rgb(200, 109, 78)*/
 #header-img > h1 {
     font-size: 75px;
     font-family: roboto;
@@ -38,15 +43,11 @@ nav > div {
 }
 
 #header-img > img {
+    margin-left: 5px;
     height: 110px;
     width: 110px;
     border-radius: 50%;
     border: 5px solid gray;
-    filter: grayscale(100%);
-}
-
-#header-img > img:hover {
-    filter: grayscale(0%);
 }
 
 /*Welcome Page*/

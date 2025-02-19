@@ -71,5 +71,6 @@ Rails.application.configure do
   # config.generators.apply_rubocop_autocorrect_after_generate!
   config.assets.debug = true
   config.assets.compile = true
+  config.assets.check_precompiled_asset = false
   config.assets.digest = false
 end
