@@ -21987,3 +21987,1515 @@ Completed 200 OK in 929ms (Views: 10.8ms | ActiveRecord: 0.0ms (0 queries, 0 cac
 
 
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BryansWorldApp'*/[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BryansWorldApp'*/[0m
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-19 13:06:42 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BryansWorldApp'*/[0m
+Processing by PagesController#hobbies as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hobbies.html.erb within layouts/application
+  Rendered pages/hobbies.html.erb within layouts/application (Duration: 38.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 53.7ms | GC: 0.0ms)
+Completed 200 OK in 2070ms (Views: 195.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/assets/application-bfcdf840.js" for 127.0.0.1 at 2025-02-19 13:06:44 -0500
+Started GET "/assets/turbo.min-fae85750.js" for 127.0.0.1 at 2025-02-19 13:06:44 -0500
+Started GET "/assets/stimulus.min-4b1e420e.js" for 127.0.0.1 at 2025-02-19 13:06:44 -0500
+Started GET "/assets/controllers/index-ee64e1f1.js" for 127.0.0.1 at 2025-02-19 13:06:44 -0500
+Started GET "/assets/linkedin-b01e6815.png" for 127.0.0.1 at 2025-02-19 13:06:44 -0500
+Started GET "/assets/LinkedInWeddingSmall-b5a4fec3.JPG" for 127.0.0.1 at 2025-02-19 13:06:44 -0500
+Started GET "/assets/github-c3a8328b.png" for 127.0.0.1 at 2025-02-19 13:06:44 -0500
+Started GET "/assets/profile-581406e0.png" for 127.0.0.1 at 2025-02-19 13:06:44 -0500
+Started GET "/assets/stimulus-loading-1fc53fe7.js" for 127.0.0.1 at 2025-02-19 13:06:45 -0500
+Started GET "/assets/controllers/application-3affb389.js" for 127.0.0.1 at 2025-02-19 13:06:45 -0500
+Started GET "/assets/controllers/hello_controller-708796bd.js" for 127.0.0.1 at 2025-02-19 13:06:45 -0500
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:06:45 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 1.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | GC: 0.0ms)
+Completed 200 OK in 997ms (Views: 4.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:07:28 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BryansWorldApp'*/[0m
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 1.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 45.1ms | GC: 0.2ms)
+Completed 200 OK in 1925ms (Views: 52.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Writing application-11908456.css
+Writing manifest-e8dc057d.js
+Writing chessboard-a36fbcee.jpeg
+Writing coding-b27c113e.jpg
+Writing desktop-510a2297.ini
+Writing github-c3a8328b.png
+Writing linkedin-b01e6815.png
+Writing LinkedInWeddingSmall-b5a4fec3.JPG
+Writing maps-010d195d.png
+Writing profile-581406e0.png
+Writing ukes-112d9682.jpg
+Writing application-4e6931bd.scss
+Writing pages.css-98ece1a3.scss
+Writing application-bfcdf840.js
+Writing controllers/application-3affb389.js
+Writing controllers/hello_controller-708796bd.js
+Writing controllers/index-ee64e1f1.js
+Writing stimulus-autoloader-9d447422.js
+Writing stimulus-importmap-autoloader-64cc03e1.js
+Writing stimulus-loading-1fc53fe7.js
+Writing stimulus-d59b3b7f.js
+Writing stimulus.min-4b1e420e.js
+Writing stimulus.min-2395e199.js.map
+Writing turbo-86e38c3c.js
+Writing turbo.min-fae85750.js
+Writing turbo.min-5dd5a71a.js.map
+Writing actiontext.esm-f1c04d34.js
+Writing actiontext-a4ee937e.js
+Writing trix-0d050b00.js
+Writing trix-c4e7be2d.css
+Writing actioncable.esm-e0ec9819.js
+Writing actioncable-ac25813f.js
+Writing action_cable-5212cfee.js
+Writing activestorage.esm-f2909226.js
+Writing activestorage-32201f68.js
+Writing rails-ujs.esm-e925103b.js
+Writing rails-ujs-20eaf715.js
+Writing popper-2d47ff71.js
+Writing bootstrap/forms/_floating-labels-714df10e.scss
+Writing bootstrap/forms/_form-check-b7d4870e.scss
+Writing bootstrap/forms/_form-control-307f8e9f.scss
+Writing bootstrap/forms/_form-range-74e2161b.scss
+Writing bootstrap/forms/_form-select-d0308d60.scss
+Writing bootstrap/forms/_form-text-7c2fda40.scss
+Writing bootstrap/forms/_input-group-49b8a9e5.scss
+Writing bootstrap/forms/_labels-1b731f03.scss
+Writing bootstrap/forms/_validation-151c52c9.scss
+Writing bootstrap/helpers/_clearfix-8dac4602.scss
+Writing bootstrap/helpers/_color-bg-2db55925.scss
+Writing bootstrap/helpers/_colored-links-b69bbe94.scss
+Writing bootstrap/helpers/_focus-ring-171a2d9a.scss
+Writing bootstrap/helpers/_icon-link-c09f7d2b.scss
+Writing bootstrap/helpers/_position-31bee6a5.scss
+Writing bootstrap/helpers/_ratio-fca4c813.scss
+Writing bootstrap/helpers/_stacks-41033c09.scss
+Writing bootstrap/helpers/_stretched-link-0af9b4e7.scss
+Writing bootstrap/helpers/_text-truncation-2f470970.scss
+Writing bootstrap/helpers/_visually-hidden-156e67e4.scss
+Writing bootstrap/helpers/_vr-f3405a55.scss
+Writing bootstrap/mixins/_alert-b321b422.scss
+Writing bootstrap/mixins/_backdrop-a7ab44fa.scss
+Writing bootstrap/mixins/_banner-12a12d6b.scss
+Writing bootstrap/mixins/_border-radius-d478fb3f.scss
+Writing bootstrap/mixins/_box-shadow-605f0147.scss
+Writing bootstrap/mixins/_breakpoints-9172ff16.scss
+Writing bootstrap/mixins/_buttons-1d842813.scss
+Writing bootstrap/mixins/_caret-6acc8ad0.scss
+Writing bootstrap/mixins/_clearfix-00a000b1.scss
+Writing bootstrap/mixins/_color-mode-5049b0a2.scss
+Writing bootstrap/mixins/_color-scheme-35b23bbc.scss
+Writing bootstrap/mixins/_container-351d4d18.scss
+Writing bootstrap/mixins/_deprecate-ea93c726.scss
+Writing bootstrap/mixins/_forms-fdacfc6c.scss
+Writing bootstrap/mixins/_gradients-96ac5e14.scss
+Writing bootstrap/mixins/_grid-ac8bd8c6.scss
+Writing bootstrap/mixins/_image-e28a29ad.scss
+Writing bootstrap/mixins/_list-group-be10e0b5.scss
+Writing bootstrap/mixins/_lists-c501225b.scss
+Writing bootstrap/mixins/_pagination-93a6e01d.scss
+Writing bootstrap/mixins/_reset-text-e30147e3.scss
+Writing bootstrap/mixins/_resize-dabe0451.scss
+Writing bootstrap/mixins/_table-variants-792c3cd8.scss
+Writing bootstrap/mixins/_text-truncate-8b4e7004.scss
+Writing bootstrap/mixins/_transition-587f238b.scss
+Writing bootstrap/mixins/_utilities-82ddfff0.scss
+Writing bootstrap/mixins/_visually-hidden-78e7fbe6.scss
+Writing bootstrap/utilities/_api-11dcc5c9.scss
+Writing bootstrap/vendor/_rfs-8466fd17.scss
+Writing bootstrap/_accordion-c4570cab.scss
+Writing bootstrap/_alert-a5de64a2.scss
+Writing bootstrap/_badge-2879968c.scss
+Writing bootstrap/_breadcrumb-34b74197.scss
+Writing bootstrap/_button-group-0ab8a0c1.scss
+Writing bootstrap/_buttons-1e0fefdc.scss
+Writing bootstrap/_card-80b65792.scss
+Writing bootstrap/_carousel-1a42a0cd.scss
+Writing bootstrap/_close-bbc67080.scss
+Writing bootstrap/_containers-be6e2e5a.scss
+Writing bootstrap/_dropdown-9c36640f.scss
+Writing bootstrap/_forms-592799d7.scss
+Writing bootstrap/_functions-560be441.scss
+Writing bootstrap/_grid-6de5b312.scss
+Writing bootstrap/_helpers-298158c9.scss
+Writing bootstrap/_images-ae79f639.scss
+Writing bootstrap/_list-group-f1abebc0.scss
+Writing bootstrap/_maps-a7dff9e2.scss
+Writing bootstrap/_mixins-c68bef8a.scss
+Writing bootstrap/_modal-7e603894.scss
+Writing bootstrap/_nav-d921a3a7.scss
+Writing bootstrap/_navbar-9f221b21.scss
+Writing bootstrap/_offcanvas-8be95ac1.scss
+Writing bootstrap/_pagination-b5398b9d.scss
+Writing bootstrap/_placeholders-1483058a.scss
+Writing bootstrap/_popover-94f188a4.scss
+Writing bootstrap/_progress-9db63911.scss
+Writing bootstrap/_reboot-138f4d6a.scss
+Writing bootstrap/_root-06961be3.scss
+Writing bootstrap/_spinners-df3c98e6.scss
+Writing bootstrap/_tables-caa80806.scss
+Writing bootstrap/_toasts-b8e14752.scss
+Writing bootstrap/_tooltip-85e4fc73.scss
+Writing bootstrap/_transitions-712bdd06.scss
+Writing bootstrap/_type-16e97b22.scss
+Writing bootstrap/_utilities-ef36e5e2.scss
+Writing bootstrap/_variables-dark-8985a137.scss
+Writing bootstrap/_variables-35d5a383.scss
+Writing _bootstrap-grid-72fa96f6.scss
+Writing _bootstrap-reboot-d0291d94.scss
+Writing _bootstrap-utilities-1c1ba8b8.scss
+Writing _bootstrap-5545bd2b.scss
+Writing bootstrap/alert-66df7f3e.js
+Writing bootstrap/base-component-8075085c.js
+Writing bootstrap/button-8b20367a.js
+Writing bootstrap/carousel-5bc24b7c.js
+Writing bootstrap/collapse-aa024be5.js
+Writing bootstrap/dom/data-f43590c3.js
+Writing bootstrap/dom/event-handler-7d26f499.js
+Writing bootstrap/dom/manipulator-7ba5090b.js
+Writing bootstrap/dom/selector-engine-6548d098.js
+Writing bootstrap/dropdown-5e6f3002.js
+Writing bootstrap/modal-3d17e5f4.js
+Writing bootstrap/offcanvas-946b6e14.js
+Writing bootstrap/popover-2958caee.js
+Writing bootstrap/scrollspy-69ea1667.js
+Writing bootstrap/tab-ca6aeca4.js
+Writing bootstrap/toast-1740ea52.js
+Writing bootstrap/tooltip-58e2fe7b.js
+Writing bootstrap/util/backdrop-6f3f9f82.js
+Writing bootstrap/util/component-functions-0367e3d1.js
+Writing bootstrap/util/config-4c24c381.js
+Writing bootstrap/util/focustrap-94b80a03.js
+Writing bootstrap/util/index-e324f34b.js
+Writing bootstrap/util/sanitizer-c3830c3c.js
+Writing bootstrap/util/scrollbar-5bb4c463.js
+Writing bootstrap/util/swipe-85cf65d2.js
+Writing bootstrap/util/template-factory-14fb5bc1.js
+Writing bootstrap-global-this-define-525df91c.js
+Writing bootstrap-global-this-undefine-9fc5700f.js
+Writing bootstrap-sprockets-28d2540f.js
+Writing bootstrap-a79be8c1.js
+Writing bootstrap.min-cdc50fbe.js
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:08:18 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BryansWorldApp'*/[0m
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 44.1ms | GC: 0.0ms)
+Completed 200 OK in 1882ms (Views: 50.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:10:34 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BryansWorldApp'*/[0m
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 1.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 41.8ms | GC: 0.0ms)
+Completed 200 OK in 1951ms (Views: 48.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:10:39 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | GC: 0.0ms)
+Completed 200 OK in 1003ms (Views: 2.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:11:08 -0500
+Processing by PagesController#welcome as HTML
+  Rendering public/406-unsupported-browser.html
+  Rendered public/406-unsupported-browser.html (Duration: 10.9ms | GC: 0.0ms)
+Filter chain halted as #<Proc:0x000001f28058f010 c:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/actionpack-8.0.1/lib/action_controller/metal/allow_browser.rb:58 (lambda)> rendered or redirected
+Completed 406 Not Acceptable in 1208ms (Views: 98.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:11:27 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BryansWorldApp'*/[0m
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 1.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 45.0ms | GC: 0.0ms)
+Completed 200 OK in 1911ms (Views: 52.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Writing application-11908456.css
+Writing manifest-e8dc057d.js
+Writing chessboard-a36fbcee.jpeg
+Writing coding-b27c113e.jpg
+Writing desktop-510a2297.ini
+Writing github-c3a8328b.png
+Writing linkedin-b01e6815.png
+Writing LinkedInWeddingSmall-b5a4fec3.JPG
+Writing maps-010d195d.png
+Writing profile-581406e0.png
+Writing ukes-112d9682.jpg
+Writing application-4e6931bd.scss
+Writing pages.css-98ece1a3.scss
+Writing application-bfcdf840.js
+Writing controllers/application-3affb389.js
+Writing controllers/hello_controller-708796bd.js
+Writing controllers/index-ee64e1f1.js
+Writing stimulus-autoloader-9d447422.js
+Writing stimulus-importmap-autoloader-64cc03e1.js
+Writing stimulus-loading-1fc53fe7.js
+Writing stimulus-d59b3b7f.js
+Writing stimulus.min-4b1e420e.js
+Writing stimulus.min-2395e199.js.map
+Writing turbo-86e38c3c.js
+Writing turbo.min-fae85750.js
+Writing turbo.min-5dd5a71a.js.map
+Writing actiontext.esm-f1c04d34.js
+Writing actiontext-a4ee937e.js
+Writing trix-0d050b00.js
+Writing trix-c4e7be2d.css
+Writing actioncable.esm-e0ec9819.js
+Writing actioncable-ac25813f.js
+Writing action_cable-5212cfee.js
+Writing activestorage.esm-f2909226.js
+Writing activestorage-32201f68.js
+Writing rails-ujs.esm-e925103b.js
+Writing rails-ujs-20eaf715.js
+Writing popper-2d47ff71.js
+Writing bootstrap/forms/_floating-labels-714df10e.scss
+Writing bootstrap/forms/_form-check-b7d4870e.scss
+Writing bootstrap/forms/_form-control-307f8e9f.scss
+Writing bootstrap/forms/_form-range-74e2161b.scss
+Writing bootstrap/forms/_form-select-d0308d60.scss
+Writing bootstrap/forms/_form-text-7c2fda40.scss
+Writing bootstrap/forms/_input-group-49b8a9e5.scss
+Writing bootstrap/forms/_labels-1b731f03.scss
+Writing bootstrap/forms/_validation-151c52c9.scss
+Writing bootstrap/helpers/_clearfix-8dac4602.scss
+Writing bootstrap/helpers/_color-bg-2db55925.scss
+Writing bootstrap/helpers/_colored-links-b69bbe94.scss
+Writing bootstrap/helpers/_focus-ring-171a2d9a.scss
+Writing bootstrap/helpers/_icon-link-c09f7d2b.scss
+Writing bootstrap/helpers/_position-31bee6a5.scss
+Writing bootstrap/helpers/_ratio-fca4c813.scss
+Writing bootstrap/helpers/_stacks-41033c09.scss
+Writing bootstrap/helpers/_stretched-link-0af9b4e7.scss
+Writing bootstrap/helpers/_text-truncation-2f470970.scss
+Writing bootstrap/helpers/_visually-hidden-156e67e4.scss
+Writing bootstrap/helpers/_vr-f3405a55.scss
+Writing bootstrap/mixins/_alert-b321b422.scss
+Writing bootstrap/mixins/_backdrop-a7ab44fa.scss
+Writing bootstrap/mixins/_banner-12a12d6b.scss
+Writing bootstrap/mixins/_border-radius-d478fb3f.scss
+Writing bootstrap/mixins/_box-shadow-605f0147.scss
+Writing bootstrap/mixins/_breakpoints-9172ff16.scss
+Writing bootstrap/mixins/_buttons-1d842813.scss
+Writing bootstrap/mixins/_caret-6acc8ad0.scss
+Writing bootstrap/mixins/_clearfix-00a000b1.scss
+Writing bootstrap/mixins/_color-mode-5049b0a2.scss
+Writing bootstrap/mixins/_color-scheme-35b23bbc.scss
+Writing bootstrap/mixins/_container-351d4d18.scss
+Writing bootstrap/mixins/_deprecate-ea93c726.scss
+Writing bootstrap/mixins/_forms-fdacfc6c.scss
+Writing bootstrap/mixins/_gradients-96ac5e14.scss
+Writing bootstrap/mixins/_grid-ac8bd8c6.scss
+Writing bootstrap/mixins/_image-e28a29ad.scss
+Writing bootstrap/mixins/_list-group-be10e0b5.scss
+Writing bootstrap/mixins/_lists-c501225b.scss
+Writing bootstrap/mixins/_pagination-93a6e01d.scss
+Writing bootstrap/mixins/_reset-text-e30147e3.scss
+Writing bootstrap/mixins/_resize-dabe0451.scss
+Writing bootstrap/mixins/_table-variants-792c3cd8.scss
+Writing bootstrap/mixins/_text-truncate-8b4e7004.scss
+Writing bootstrap/mixins/_transition-587f238b.scss
+Writing bootstrap/mixins/_utilities-82ddfff0.scss
+Writing bootstrap/mixins/_visually-hidden-78e7fbe6.scss
+Writing bootstrap/utilities/_api-11dcc5c9.scss
+Writing bootstrap/vendor/_rfs-8466fd17.scss
+Writing bootstrap/_accordion-c4570cab.scss
+Writing bootstrap/_alert-a5de64a2.scss
+Writing bootstrap/_badge-2879968c.scss
+Writing bootstrap/_breadcrumb-34b74197.scss
+Writing bootstrap/_button-group-0ab8a0c1.scss
+Writing bootstrap/_buttons-1e0fefdc.scss
+Writing bootstrap/_card-80b65792.scss
+Writing bootstrap/_carousel-1a42a0cd.scss
+Writing bootstrap/_close-bbc67080.scss
+Writing bootstrap/_containers-be6e2e5a.scss
+Writing bootstrap/_dropdown-9c36640f.scss
+Writing bootstrap/_forms-592799d7.scss
+Writing bootstrap/_functions-560be441.scss
+Writing bootstrap/_grid-6de5b312.scss
+Writing bootstrap/_helpers-298158c9.scss
+Writing bootstrap/_images-ae79f639.scss
+Writing bootstrap/_list-group-f1abebc0.scss
+Writing bootstrap/_maps-a7dff9e2.scss
+Writing bootstrap/_mixins-c68bef8a.scss
+Writing bootstrap/_modal-7e603894.scss
+Writing bootstrap/_nav-d921a3a7.scss
+Writing bootstrap/_navbar-9f221b21.scss
+Writing bootstrap/_offcanvas-8be95ac1.scss
+Writing bootstrap/_pagination-b5398b9d.scss
+Writing bootstrap/_placeholders-1483058a.scss
+Writing bootstrap/_popover-94f188a4.scss
+Writing bootstrap/_progress-9db63911.scss
+Writing bootstrap/_reboot-138f4d6a.scss
+Writing bootstrap/_root-06961be3.scss
+Writing bootstrap/_spinners-df3c98e6.scss
+Writing bootstrap/_tables-caa80806.scss
+Writing bootstrap/_toasts-b8e14752.scss
+Writing bootstrap/_tooltip-85e4fc73.scss
+Writing bootstrap/_transitions-712bdd06.scss
+Writing bootstrap/_type-16e97b22.scss
+Writing bootstrap/_utilities-ef36e5e2.scss
+Writing bootstrap/_variables-dark-8985a137.scss
+Writing bootstrap/_variables-35d5a383.scss
+Writing _bootstrap-grid-72fa96f6.scss
+Writing _bootstrap-reboot-d0291d94.scss
+Writing _bootstrap-utilities-1c1ba8b8.scss
+Writing _bootstrap-5545bd2b.scss
+Writing bootstrap/alert-66df7f3e.js
+Writing bootstrap/base-component-8075085c.js
+Writing bootstrap/button-8b20367a.js
+Writing bootstrap/carousel-5bc24b7c.js
+Writing bootstrap/collapse-aa024be5.js
+Writing bootstrap/dom/data-f43590c3.js
+Writing bootstrap/dom/event-handler-7d26f499.js
+Writing bootstrap/dom/manipulator-7ba5090b.js
+Writing bootstrap/dom/selector-engine-6548d098.js
+Writing bootstrap/dropdown-5e6f3002.js
+Writing bootstrap/modal-3d17e5f4.js
+Writing bootstrap/offcanvas-946b6e14.js
+Writing bootstrap/popover-2958caee.js
+Writing bootstrap/scrollspy-69ea1667.js
+Writing bootstrap/tab-ca6aeca4.js
+Writing bootstrap/toast-1740ea52.js
+Writing bootstrap/tooltip-58e2fe7b.js
+Writing bootstrap/util/backdrop-6f3f9f82.js
+Writing bootstrap/util/component-functions-0367e3d1.js
+Writing bootstrap/util/config-4c24c381.js
+Writing bootstrap/util/focustrap-94b80a03.js
+Writing bootstrap/util/index-e324f34b.js
+Writing bootstrap/util/sanitizer-c3830c3c.js
+Writing bootstrap/util/scrollbar-5bb4c463.js
+Writing bootstrap/util/swipe-85cf65d2.js
+Writing bootstrap/util/template-factory-14fb5bc1.js
+Writing bootstrap-global-this-define-525df91c.js
+Writing bootstrap-global-this-undefine-9fc5700f.js
+Writing bootstrap-sprockets-28d2540f.js
+Writing bootstrap-a79be8c1.js
+Writing bootstrap.min-cdc50fbe.js
+Writing application-11908456.css
+Writing manifest-e8dc057d.js
+Writing chessboard-a36fbcee.jpeg
+Writing coding-b27c113e.jpg
+Writing desktop-510a2297.ini
+Writing github-c3a8328b.png
+Writing linkedin-b01e6815.png
+Writing LinkedInWeddingSmall-b5a4fec3.JPG
+Writing maps-010d195d.png
+Writing profile-581406e0.png
+Writing ukes-112d9682.jpg
+Writing application-4e6931bd.scss
+Writing pages.css-98ece1a3.scss
+Writing application-bfcdf840.js
+Writing controllers/application-3affb389.js
+Writing controllers/hello_controller-708796bd.js
+Writing controllers/index-ee64e1f1.js
+Writing stimulus-autoloader-9d447422.js
+Writing stimulus-importmap-autoloader-64cc03e1.js
+Writing stimulus-loading-1fc53fe7.js
+Writing stimulus-d59b3b7f.js
+Writing stimulus.min-4b1e420e.js
+Writing stimulus.min-2395e199.js.map
+Writing turbo-86e38c3c.js
+Writing turbo.min-fae85750.js
+Writing turbo.min-5dd5a71a.js.map
+Writing actiontext.esm-f1c04d34.js
+Writing actiontext-a4ee937e.js
+Writing trix-0d050b00.js
+Writing trix-c4e7be2d.css
+Writing actioncable.esm-e0ec9819.js
+Writing actioncable-ac25813f.js
+Writing action_cable-5212cfee.js
+Writing activestorage.esm-f2909226.js
+Writing activestorage-32201f68.js
+Writing rails-ujs.esm-e925103b.js
+Writing rails-ujs-20eaf715.js
+Writing popper-2d47ff71.js
+Writing bootstrap/forms/_floating-labels-714df10e.scss
+Writing bootstrap/forms/_form-check-b7d4870e.scss
+Writing bootstrap/forms/_form-control-307f8e9f.scss
+Writing bootstrap/forms/_form-range-74e2161b.scss
+Writing bootstrap/forms/_form-select-d0308d60.scss
+Writing bootstrap/forms/_form-text-7c2fda40.scss
+Writing bootstrap/forms/_input-group-49b8a9e5.scss
+Writing bootstrap/forms/_labels-1b731f03.scss
+Writing bootstrap/forms/_validation-151c52c9.scss
+Writing bootstrap/helpers/_clearfix-8dac4602.scss
+Writing bootstrap/helpers/_color-bg-2db55925.scss
+Writing bootstrap/helpers/_colored-links-b69bbe94.scss
+Writing bootstrap/helpers/_focus-ring-171a2d9a.scss
+Writing bootstrap/helpers/_icon-link-c09f7d2b.scss
+Writing bootstrap/helpers/_position-31bee6a5.scss
+Writing bootstrap/helpers/_ratio-fca4c813.scss
+Writing bootstrap/helpers/_stacks-41033c09.scss
+Writing bootstrap/helpers/_stretched-link-0af9b4e7.scss
+Writing bootstrap/helpers/_text-truncation-2f470970.scss
+Writing bootstrap/helpers/_visually-hidden-156e67e4.scss
+Writing bootstrap/helpers/_vr-f3405a55.scss
+Writing bootstrap/mixins/_alert-b321b422.scss
+Writing bootstrap/mixins/_backdrop-a7ab44fa.scss
+Writing bootstrap/mixins/_banner-12a12d6b.scss
+Writing bootstrap/mixins/_border-radius-d478fb3f.scss
+Writing bootstrap/mixins/_box-shadow-605f0147.scss
+Writing bootstrap/mixins/_breakpoints-9172ff16.scss
+Writing bootstrap/mixins/_buttons-1d842813.scss
+Writing bootstrap/mixins/_caret-6acc8ad0.scss
+Writing bootstrap/mixins/_clearfix-00a000b1.scss
+Writing bootstrap/mixins/_color-mode-5049b0a2.scss
+Writing bootstrap/mixins/_color-scheme-35b23bbc.scss
+Writing bootstrap/mixins/_container-351d4d18.scss
+Writing bootstrap/mixins/_deprecate-ea93c726.scss
+Writing bootstrap/mixins/_forms-fdacfc6c.scss
+Writing bootstrap/mixins/_gradients-96ac5e14.scss
+Writing bootstrap/mixins/_grid-ac8bd8c6.scss
+Writing bootstrap/mixins/_image-e28a29ad.scss
+Writing bootstrap/mixins/_list-group-be10e0b5.scss
+Writing bootstrap/mixins/_lists-c501225b.scss
+Writing bootstrap/mixins/_pagination-93a6e01d.scss
+Writing bootstrap/mixins/_reset-text-e30147e3.scss
+Writing bootstrap/mixins/_resize-dabe0451.scss
+Writing bootstrap/mixins/_table-variants-792c3cd8.scss
+Writing bootstrap/mixins/_text-truncate-8b4e7004.scss
+Writing bootstrap/mixins/_transition-587f238b.scss
+Writing bootstrap/mixins/_utilities-82ddfff0.scss
+Writing bootstrap/mixins/_visually-hidden-78e7fbe6.scss
+Writing bootstrap/utilities/_api-11dcc5c9.scss
+Writing bootstrap/vendor/_rfs-8466fd17.scss
+Writing bootstrap/_accordion-c4570cab.scss
+Writing bootstrap/_alert-a5de64a2.scss
+Writing bootstrap/_badge-2879968c.scss
+Writing bootstrap/_breadcrumb-34b74197.scss
+Writing bootstrap/_button-group-0ab8a0c1.scss
+Writing bootstrap/_buttons-1e0fefdc.scss
+Writing bootstrap/_card-80b65792.scss
+Writing bootstrap/_carousel-1a42a0cd.scss
+Writing bootstrap/_close-bbc67080.scss
+Writing bootstrap/_containers-be6e2e5a.scss
+Writing bootstrap/_dropdown-9c36640f.scss
+Writing bootstrap/_forms-592799d7.scss
+Writing bootstrap/_functions-560be441.scss
+Writing bootstrap/_grid-6de5b312.scss
+Writing bootstrap/_helpers-298158c9.scss
+Writing bootstrap/_images-ae79f639.scss
+Writing bootstrap/_list-group-f1abebc0.scss
+Writing bootstrap/_maps-a7dff9e2.scss
+Writing bootstrap/_mixins-c68bef8a.scss
+Writing bootstrap/_modal-7e603894.scss
+Writing bootstrap/_nav-d921a3a7.scss
+Writing bootstrap/_navbar-9f221b21.scss
+Writing bootstrap/_offcanvas-8be95ac1.scss
+Writing bootstrap/_pagination-b5398b9d.scss
+Writing bootstrap/_placeholders-1483058a.scss
+Writing bootstrap/_popover-94f188a4.scss
+Writing bootstrap/_progress-9db63911.scss
+Writing bootstrap/_reboot-138f4d6a.scss
+Writing bootstrap/_root-06961be3.scss
+Writing bootstrap/_spinners-df3c98e6.scss
+Writing bootstrap/_tables-caa80806.scss
+Writing bootstrap/_toasts-b8e14752.scss
+Writing bootstrap/_tooltip-85e4fc73.scss
+Writing bootstrap/_transitions-712bdd06.scss
+Writing bootstrap/_type-16e97b22.scss
+Writing bootstrap/_utilities-ef36e5e2.scss
+Writing bootstrap/_variables-dark-8985a137.scss
+Writing bootstrap/_variables-35d5a383.scss
+Writing _bootstrap-grid-72fa96f6.scss
+Writing _bootstrap-reboot-d0291d94.scss
+Writing _bootstrap-utilities-1c1ba8b8.scss
+Writing _bootstrap-5545bd2b.scss
+Writing bootstrap/alert-66df7f3e.js
+Writing bootstrap/base-component-8075085c.js
+Writing bootstrap/button-8b20367a.js
+Writing bootstrap/carousel-5bc24b7c.js
+Writing bootstrap/collapse-aa024be5.js
+Writing bootstrap/dom/data-f43590c3.js
+Writing bootstrap/dom/event-handler-7d26f499.js
+Writing bootstrap/dom/manipulator-7ba5090b.js
+Writing bootstrap/dom/selector-engine-6548d098.js
+Writing bootstrap/dropdown-5e6f3002.js
+Writing bootstrap/modal-3d17e5f4.js
+Writing bootstrap/offcanvas-946b6e14.js
+Writing bootstrap/popover-2958caee.js
+Writing bootstrap/scrollspy-69ea1667.js
+Writing bootstrap/tab-ca6aeca4.js
+Writing bootstrap/toast-1740ea52.js
+Writing bootstrap/tooltip-58e2fe7b.js
+Writing bootstrap/util/backdrop-6f3f9f82.js
+Writing bootstrap/util/component-functions-0367e3d1.js
+Writing bootstrap/util/config-4c24c381.js
+Writing bootstrap/util/focustrap-94b80a03.js
+Writing bootstrap/util/index-e324f34b.js
+Writing bootstrap/util/sanitizer-c3830c3c.js
+Writing bootstrap/util/scrollbar-5bb4c463.js
+Writing bootstrap/util/swipe-85cf65d2.js
+Writing bootstrap/util/template-factory-14fb5bc1.js
+Writing bootstrap-global-this-define-525df91c.js
+Writing bootstrap-global-this-undefine-9fc5700f.js
+Writing bootstrap-sprockets-28d2540f.js
+Writing bootstrap-a79be8c1.js
+Writing bootstrap.min-cdc50fbe.js
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:12:34 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BryansWorldApp'*/[0m
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 40.0ms | GC: 0.0ms)
+Completed 200 OK in 1905ms (Views: 47.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Writing application-11908456.css
+Writing manifest-e8dc057d.js
+Writing chessboard-a36fbcee.jpeg
+Writing coding-b27c113e.jpg
+Writing desktop-510a2297.ini
+Writing github-c3a8328b.png
+Writing linkedin-b01e6815.png
+Writing LinkedInWeddingSmall-b5a4fec3.JPG
+Writing maps-010d195d.png
+Writing profile-581406e0.png
+Writing ukes-112d9682.jpg
+Writing application-4e6931bd.scss
+Writing pages.css-98ece1a3.scss
+Writing application-bfcdf840.js
+Writing controllers/application-3affb389.js
+Writing controllers/hello_controller-708796bd.js
+Writing controllers/index-ee64e1f1.js
+Writing stimulus-autoloader-9d447422.js
+Writing stimulus-importmap-autoloader-64cc03e1.js
+Writing stimulus-loading-1fc53fe7.js
+Writing stimulus-d59b3b7f.js
+Writing stimulus.min-4b1e420e.js
+Writing stimulus.min-2395e199.js.map
+Writing turbo-86e38c3c.js
+Writing turbo.min-fae85750.js
+Writing turbo.min-5dd5a71a.js.map
+Writing actiontext.esm-f1c04d34.js
+Writing actiontext-a4ee937e.js
+Writing trix-0d050b00.js
+Writing trix-c4e7be2d.css
+Writing actioncable.esm-e0ec9819.js
+Writing actioncable-ac25813f.js
+Writing action_cable-5212cfee.js
+Writing activestorage.esm-f2909226.js
+Writing activestorage-32201f68.js
+Writing rails-ujs.esm-e925103b.js
+Writing rails-ujs-20eaf715.js
+Writing popper-2d47ff71.js
+Writing bootstrap/forms/_floating-labels-714df10e.scss
+Writing bootstrap/forms/_form-check-b7d4870e.scss
+Writing bootstrap/forms/_form-control-307f8e9f.scss
+Writing bootstrap/forms/_form-range-74e2161b.scss
+Writing bootstrap/forms/_form-select-d0308d60.scss
+Writing bootstrap/forms/_form-text-7c2fda40.scss
+Writing bootstrap/forms/_input-group-49b8a9e5.scss
+Writing bootstrap/forms/_labels-1b731f03.scss
+Writing bootstrap/forms/_validation-151c52c9.scss
+Writing bootstrap/helpers/_clearfix-8dac4602.scss
+Writing bootstrap/helpers/_color-bg-2db55925.scss
+Writing bootstrap/helpers/_colored-links-b69bbe94.scss
+Writing bootstrap/helpers/_focus-ring-171a2d9a.scss
+Writing bootstrap/helpers/_icon-link-c09f7d2b.scss
+Writing bootstrap/helpers/_position-31bee6a5.scss
+Writing bootstrap/helpers/_ratio-fca4c813.scss
+Writing bootstrap/helpers/_stacks-41033c09.scss
+Writing bootstrap/helpers/_stretched-link-0af9b4e7.scss
+Writing bootstrap/helpers/_text-truncation-2f470970.scss
+Writing bootstrap/helpers/_visually-hidden-156e67e4.scss
+Writing bootstrap/helpers/_vr-f3405a55.scss
+Writing bootstrap/mixins/_alert-b321b422.scss
+Writing bootstrap/mixins/_backdrop-a7ab44fa.scss
+Writing bootstrap/mixins/_banner-12a12d6b.scss
+Writing bootstrap/mixins/_border-radius-d478fb3f.scss
+Writing bootstrap/mixins/_box-shadow-605f0147.scss
+Writing bootstrap/mixins/_breakpoints-9172ff16.scss
+Writing bootstrap/mixins/_buttons-1d842813.scss
+Writing bootstrap/mixins/_caret-6acc8ad0.scss
+Writing bootstrap/mixins/_clearfix-00a000b1.scss
+Writing bootstrap/mixins/_color-mode-5049b0a2.scss
+Writing bootstrap/mixins/_color-scheme-35b23bbc.scss
+Writing bootstrap/mixins/_container-351d4d18.scss
+Writing bootstrap/mixins/_deprecate-ea93c726.scss
+Writing bootstrap/mixins/_forms-fdacfc6c.scss
+Writing bootstrap/mixins/_gradients-96ac5e14.scss
+Writing bootstrap/mixins/_grid-ac8bd8c6.scss
+Writing bootstrap/mixins/_image-e28a29ad.scss
+Writing bootstrap/mixins/_list-group-be10e0b5.scss
+Writing bootstrap/mixins/_lists-c501225b.scss
+Writing bootstrap/mixins/_pagination-93a6e01d.scss
+Writing bootstrap/mixins/_reset-text-e30147e3.scss
+Writing bootstrap/mixins/_resize-dabe0451.scss
+Writing bootstrap/mixins/_table-variants-792c3cd8.scss
+Writing bootstrap/mixins/_text-truncate-8b4e7004.scss
+Writing bootstrap/mixins/_transition-587f238b.scss
+Writing bootstrap/mixins/_utilities-82ddfff0.scss
+Writing bootstrap/mixins/_visually-hidden-78e7fbe6.scss
+Writing bootstrap/utilities/_api-11dcc5c9.scss
+Writing bootstrap/vendor/_rfs-8466fd17.scss
+Writing bootstrap/_accordion-c4570cab.scss
+Writing bootstrap/_alert-a5de64a2.scss
+Writing bootstrap/_badge-2879968c.scss
+Writing bootstrap/_breadcrumb-34b74197.scss
+Writing bootstrap/_button-group-0ab8a0c1.scss
+Writing bootstrap/_buttons-1e0fefdc.scss
+Writing bootstrap/_card-80b65792.scss
+Writing bootstrap/_carousel-1a42a0cd.scss
+Writing bootstrap/_close-bbc67080.scss
+Writing bootstrap/_containers-be6e2e5a.scss
+Writing bootstrap/_dropdown-9c36640f.scss
+Writing bootstrap/_forms-592799d7.scss
+Writing bootstrap/_functions-560be441.scss
+Writing bootstrap/_grid-6de5b312.scss
+Writing bootstrap/_helpers-298158c9.scss
+Writing bootstrap/_images-ae79f639.scss
+Writing bootstrap/_list-group-f1abebc0.scss
+Writing bootstrap/_maps-a7dff9e2.scss
+Writing bootstrap/_mixins-c68bef8a.scss
+Writing bootstrap/_modal-7e603894.scss
+Writing bootstrap/_nav-d921a3a7.scss
+Writing bootstrap/_navbar-9f221b21.scss
+Writing bootstrap/_offcanvas-8be95ac1.scss
+Writing bootstrap/_pagination-b5398b9d.scss
+Writing bootstrap/_placeholders-1483058a.scss
+Writing bootstrap/_popover-94f188a4.scss
+Writing bootstrap/_progress-9db63911.scss
+Writing bootstrap/_reboot-138f4d6a.scss
+Writing bootstrap/_root-06961be3.scss
+Writing bootstrap/_spinners-df3c98e6.scss
+Writing bootstrap/_tables-caa80806.scss
+Writing bootstrap/_toasts-b8e14752.scss
+Writing bootstrap/_tooltip-85e4fc73.scss
+Writing bootstrap/_transitions-712bdd06.scss
+Writing bootstrap/_type-16e97b22.scss
+Writing bootstrap/_utilities-ef36e5e2.scss
+Writing bootstrap/_variables-dark-8985a137.scss
+Writing bootstrap/_variables-35d5a383.scss
+Writing _bootstrap-grid-72fa96f6.scss
+Writing _bootstrap-reboot-d0291d94.scss
+Writing _bootstrap-utilities-1c1ba8b8.scss
+Writing _bootstrap-5545bd2b.scss
+Writing bootstrap/alert-66df7f3e.js
+Writing bootstrap/base-component-8075085c.js
+Writing bootstrap/button-8b20367a.js
+Writing bootstrap/carousel-5bc24b7c.js
+Writing bootstrap/collapse-aa024be5.js
+Writing bootstrap/dom/data-f43590c3.js
+Writing bootstrap/dom/event-handler-7d26f499.js
+Writing bootstrap/dom/manipulator-7ba5090b.js
+Writing bootstrap/dom/selector-engine-6548d098.js
+Writing bootstrap/dropdown-5e6f3002.js
+Writing bootstrap/modal-3d17e5f4.js
+Writing bootstrap/offcanvas-946b6e14.js
+Writing bootstrap/popover-2958caee.js
+Writing bootstrap/scrollspy-69ea1667.js
+Writing bootstrap/tab-ca6aeca4.js
+Writing bootstrap/toast-1740ea52.js
+Writing bootstrap/tooltip-58e2fe7b.js
+Writing bootstrap/util/backdrop-6f3f9f82.js
+Writing bootstrap/util/component-functions-0367e3d1.js
+Writing bootstrap/util/config-4c24c381.js
+Writing bootstrap/util/focustrap-94b80a03.js
+Writing bootstrap/util/index-e324f34b.js
+Writing bootstrap/util/sanitizer-c3830c3c.js
+Writing bootstrap/util/scrollbar-5bb4c463.js
+Writing bootstrap/util/swipe-85cf65d2.js
+Writing bootstrap/util/template-factory-14fb5bc1.js
+Writing bootstrap-global-this-define-525df91c.js
+Writing bootstrap-global-this-undefine-9fc5700f.js
+Writing bootstrap-sprockets-28d2540f.js
+Writing bootstrap-a79be8c1.js
+Writing bootstrap.min-cdc50fbe.js
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:14:20 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BryansWorldApp'*/[0m
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 1.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 42.7ms | GC: 0.0ms)
+Completed 200 OK in 1900ms (Views: 51.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:14:39 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | GC: 0.0ms)
+Completed 200 OK in 949ms (Views: 2.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:14:45 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | GC: 0.0ms)
+Completed 200 OK in 999ms (Views: 2.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-19 13:15:01 -0500
+Processing by PagesController#hobbies as HTML
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-19 13:15:01 -0500
+Processing by PagesController#hobbies as HTML
+  Rendering public/406-unsupported-browser.html
+  Rendering public/406-unsupported-browser.html
+  Rendered public/406-unsupported-browser.html (Duration: 0.8ms | GC: 0.0ms)
+Filter chain halted as #<Proc:0x000002472e1826b8 c:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/actionpack-8.0.1/lib/action_controller/metal/allow_browser.rb:58 (lambda)> rendered or redirected
+Completed 406 Not Acceptable in 2197ms (Views: 501.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  Rendered public/406-unsupported-browser.html (Duration: 1.2ms | GC: 0.0ms)
+Filter chain halted as #<Proc:0x000002472e1826b8 c:/Ruby33-x64/lib/ruby/gems/3.3.0/gems/actionpack-8.0.1/lib/action_controller/metal/allow_browser.rb:58 (lambda)> rendered or redirected
+Completed 406 Not Acceptable in 1758ms (Views: 5.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:15:06 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | GC: 0.0ms)
+Completed 200 OK in 2258ms (Views: 3.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BryansWorldApp'*/[0m
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:16:01 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | GC: 0.0ms)
+Completed 200 OK in 959ms (Views: 9.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-19 13:16:05 -0500
+Processing by PagesController#hobbies as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hobbies.html.erb within layouts/application
+  Rendered pages/hobbies.html.erb within layouts/application (Duration: 1.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | GC: 0.0ms)
+Completed 200 OK in 1312ms (Views: 4.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:16:07 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | GC: 0.0ms)
+Completed 200 OK in 1015ms (Views: 2.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-19 13:16:09 -0500
+Processing by PagesController#hobbies as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hobbies.html.erb within layouts/application
+  Rendered pages/hobbies.html.erb within layouts/application (Duration: 0.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | GC: 0.0ms)
+Completed 200 OK in 1106ms (Views: 3.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:16:10 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | GC: 0.0ms)
+Completed 200 OK in 995ms (Views: 3.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Writing application-11908456.css
+Writing manifest-e8dc057d.js
+Writing chessboard-a36fbcee.jpeg
+Writing coding-b27c113e.jpg
+Writing desktop-510a2297.ini
+Writing github-c3a8328b.png
+Writing linkedin-b01e6815.png
+Writing LinkedInWeddingSmall-b5a4fec3.JPG
+Writing maps-010d195d.png
+Writing profile-581406e0.png
+Writing ukes-112d9682.jpg
+Writing application-4e6931bd.scss
+Writing pages.css-98ece1a3.scss
+Writing application-bfcdf840.js
+Writing controllers/application-3affb389.js
+Writing controllers/hello_controller-708796bd.js
+Writing controllers/index-ee64e1f1.js
+Writing stimulus-autoloader-9d447422.js
+Writing stimulus-importmap-autoloader-64cc03e1.js
+Writing stimulus-loading-1fc53fe7.js
+Writing stimulus-d59b3b7f.js
+Writing stimulus.min-4b1e420e.js
+Writing stimulus.min-2395e199.js.map
+Writing turbo-86e38c3c.js
+Writing turbo.min-fae85750.js
+Writing turbo.min-5dd5a71a.js.map
+Writing actiontext.esm-f1c04d34.js
+Writing actiontext-a4ee937e.js
+Writing trix-0d050b00.js
+Writing trix-c4e7be2d.css
+Writing actioncable.esm-e0ec9819.js
+Writing actioncable-ac25813f.js
+Writing action_cable-5212cfee.js
+Writing activestorage.esm-f2909226.js
+Writing activestorage-32201f68.js
+Writing rails-ujs.esm-e925103b.js
+Writing rails-ujs-20eaf715.js
+Writing popper-2d47ff71.js
+Writing bootstrap/forms/_floating-labels-714df10e.scss
+Writing bootstrap/forms/_form-check-b7d4870e.scss
+Writing bootstrap/forms/_form-control-307f8e9f.scss
+Writing bootstrap/forms/_form-range-74e2161b.scss
+Writing bootstrap/forms/_form-select-d0308d60.scss
+Writing bootstrap/forms/_form-text-7c2fda40.scss
+Writing bootstrap/forms/_input-group-49b8a9e5.scss
+Writing bootstrap/forms/_labels-1b731f03.scss
+Writing bootstrap/forms/_validation-151c52c9.scss
+Writing bootstrap/helpers/_clearfix-8dac4602.scss
+Writing bootstrap/helpers/_color-bg-2db55925.scss
+Writing bootstrap/helpers/_colored-links-b69bbe94.scss
+Writing bootstrap/helpers/_focus-ring-171a2d9a.scss
+Writing bootstrap/helpers/_icon-link-c09f7d2b.scss
+Writing bootstrap/helpers/_position-31bee6a5.scss
+Writing bootstrap/helpers/_ratio-fca4c813.scss
+Writing bootstrap/helpers/_stacks-41033c09.scss
+Writing bootstrap/helpers/_stretched-link-0af9b4e7.scss
+Writing bootstrap/helpers/_text-truncation-2f470970.scss
+Writing bootstrap/helpers/_visually-hidden-156e67e4.scss
+Writing bootstrap/helpers/_vr-f3405a55.scss
+Writing bootstrap/mixins/_alert-b321b422.scss
+Writing bootstrap/mixins/_backdrop-a7ab44fa.scss
+Writing bootstrap/mixins/_banner-12a12d6b.scss
+Writing bootstrap/mixins/_border-radius-d478fb3f.scss
+Writing bootstrap/mixins/_box-shadow-605f0147.scss
+Writing bootstrap/mixins/_breakpoints-9172ff16.scss
+Writing bootstrap/mixins/_buttons-1d842813.scss
+Writing bootstrap/mixins/_caret-6acc8ad0.scss
+Writing bootstrap/mixins/_clearfix-00a000b1.scss
+Writing bootstrap/mixins/_color-mode-5049b0a2.scss
+Writing bootstrap/mixins/_color-scheme-35b23bbc.scss
+Writing bootstrap/mixins/_container-351d4d18.scss
+Writing bootstrap/mixins/_deprecate-ea93c726.scss
+Writing bootstrap/mixins/_forms-fdacfc6c.scss
+Writing bootstrap/mixins/_gradients-96ac5e14.scss
+Writing bootstrap/mixins/_grid-ac8bd8c6.scss
+Writing bootstrap/mixins/_image-e28a29ad.scss
+Writing bootstrap/mixins/_list-group-be10e0b5.scss
+Writing bootstrap/mixins/_lists-c501225b.scss
+Writing bootstrap/mixins/_pagination-93a6e01d.scss
+Writing bootstrap/mixins/_reset-text-e30147e3.scss
+Writing bootstrap/mixins/_resize-dabe0451.scss
+Writing bootstrap/mixins/_table-variants-792c3cd8.scss
+Writing bootstrap/mixins/_text-truncate-8b4e7004.scss
+Writing bootstrap/mixins/_transition-587f238b.scss
+Writing bootstrap/mixins/_utilities-82ddfff0.scss
+Writing bootstrap/mixins/_visually-hidden-78e7fbe6.scss
+Writing bootstrap/utilities/_api-11dcc5c9.scss
+Writing bootstrap/vendor/_rfs-8466fd17.scss
+Writing bootstrap/_accordion-c4570cab.scss
+Writing bootstrap/_alert-a5de64a2.scss
+Writing bootstrap/_badge-2879968c.scss
+Writing bootstrap/_breadcrumb-34b74197.scss
+Writing bootstrap/_button-group-0ab8a0c1.scss
+Writing bootstrap/_buttons-1e0fefdc.scss
+Writing bootstrap/_card-80b65792.scss
+Writing bootstrap/_carousel-1a42a0cd.scss
+Writing bootstrap/_close-bbc67080.scss
+Writing bootstrap/_containers-be6e2e5a.scss
+Writing bootstrap/_dropdown-9c36640f.scss
+Writing bootstrap/_forms-592799d7.scss
+Writing bootstrap/_functions-560be441.scss
+Writing bootstrap/_grid-6de5b312.scss
+Writing bootstrap/_helpers-298158c9.scss
+Writing bootstrap/_images-ae79f639.scss
+Writing bootstrap/_list-group-f1abebc0.scss
+Writing bootstrap/_maps-a7dff9e2.scss
+Writing bootstrap/_mixins-c68bef8a.scss
+Writing bootstrap/_modal-7e603894.scss
+Writing bootstrap/_nav-d921a3a7.scss
+Writing bootstrap/_navbar-9f221b21.scss
+Writing bootstrap/_offcanvas-8be95ac1.scss
+Writing bootstrap/_pagination-b5398b9d.scss
+Writing bootstrap/_placeholders-1483058a.scss
+Writing bootstrap/_popover-94f188a4.scss
+Writing bootstrap/_progress-9db63911.scss
+Writing bootstrap/_reboot-138f4d6a.scss
+Writing bootstrap/_root-06961be3.scss
+Writing bootstrap/_spinners-df3c98e6.scss
+Writing bootstrap/_tables-caa80806.scss
+Writing bootstrap/_toasts-b8e14752.scss
+Writing bootstrap/_tooltip-85e4fc73.scss
+Writing bootstrap/_transitions-712bdd06.scss
+Writing bootstrap/_type-16e97b22.scss
+Writing bootstrap/_utilities-ef36e5e2.scss
+Writing bootstrap/_variables-dark-8985a137.scss
+Writing bootstrap/_variables-35d5a383.scss
+Writing _bootstrap-grid-72fa96f6.scss
+Writing _bootstrap-reboot-d0291d94.scss
+Writing _bootstrap-utilities-1c1ba8b8.scss
+Writing _bootstrap-5545bd2b.scss
+Writing bootstrap/alert-66df7f3e.js
+Writing bootstrap/base-component-8075085c.js
+Writing bootstrap/button-8b20367a.js
+Writing bootstrap/carousel-5bc24b7c.js
+Writing bootstrap/collapse-aa024be5.js
+Writing bootstrap/dom/data-f43590c3.js
+Writing bootstrap/dom/event-handler-7d26f499.js
+Writing bootstrap/dom/manipulator-7ba5090b.js
+Writing bootstrap/dom/selector-engine-6548d098.js
+Writing bootstrap/dropdown-5e6f3002.js
+Writing bootstrap/modal-3d17e5f4.js
+Writing bootstrap/offcanvas-946b6e14.js
+Writing bootstrap/popover-2958caee.js
+Writing bootstrap/scrollspy-69ea1667.js
+Writing bootstrap/tab-ca6aeca4.js
+Writing bootstrap/toast-1740ea52.js
+Writing bootstrap/tooltip-58e2fe7b.js
+Writing bootstrap/util/backdrop-6f3f9f82.js
+Writing bootstrap/util/component-functions-0367e3d1.js
+Writing bootstrap/util/config-4c24c381.js
+Writing bootstrap/util/focustrap-94b80a03.js
+Writing bootstrap/util/index-e324f34b.js
+Writing bootstrap/util/sanitizer-c3830c3c.js
+Writing bootstrap/util/scrollbar-5bb4c463.js
+Writing bootstrap/util/swipe-85cf65d2.js
+Writing bootstrap/util/template-factory-14fb5bc1.js
+Writing bootstrap-global-this-define-525df91c.js
+Writing bootstrap-global-this-undefine-9fc5700f.js
+Writing bootstrap-sprockets-28d2540f.js
+Writing bootstrap-a79be8c1.js
+Writing bootstrap.min-cdc50fbe.js
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:16:31 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BryansWorldApp'*/[0m
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 54.9ms | GC: 0.0ms)
+Completed 200 OK in 1904ms (Views: 62.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-19 13:16:43 -0500
+Processing by PagesController#hobbies as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hobbies.html.erb within layouts/application
+  Rendered pages/hobbies.html.erb within layouts/application (Duration: 1.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | GC: 0.0ms)
+Completed 200 OK in 970ms (Views: 4.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:16:47 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | GC: 0.0ms)
+Completed 200 OK in 967ms (Views: 2.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:17:17 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | GC: 0.0ms)
+Completed 200 OK in 930ms (Views: 5.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:17:32 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | GC: 0.0ms)
+Completed 200 OK in 966ms (Views: 3.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:17:40 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | GC: 0.0ms)
+Completed 200 OK in 1043ms (Views: 2.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:18:34 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | GC: 0.0ms)
+Completed 200 OK in 1091ms (Views: 3.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-19 13:18:37 -0500
+Processing by PagesController#hobbies as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hobbies.html.erb within layouts/application
+  Rendered pages/hobbies.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | GC: 0.0ms)
+Completed 200 OK in 898ms (Views: 2.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:18:41 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | GC: 0.0ms)
+Completed 200 OK in 983ms (Views: 3.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-19 13:18:47 -0500
+Processing by PagesController#hobbies as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hobbies.html.erb within layouts/application
+  Rendered pages/hobbies.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | GC: 0.0ms)
+Completed 200 OK in 1234ms (Views: 2.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BryansWorldApp'*/[0m
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:20:23 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BryansWorldApp'*/[0m
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 47.9ms | GC: 0.0ms)
+Completed 200 OK in 2091ms (Views: 55.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-19 13:20:28 -0500
+Processing by PagesController#hobbies as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hobbies.html.erb within layouts/application
+  Rendered pages/hobbies.html.erb within layouts/application (Duration: 0.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | GC: 0.0ms)
+Completed 200 OK in 934ms (Views: 2.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:20:34 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.7ms | GC: 0.0ms)
+Completed 200 OK in 1129ms (Views: 2.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:23:47 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | GC: 0.0ms)
+Completed 200 OK in 919ms (Views: 3.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:23:56 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | GC: 0.0ms)
+Completed 200 OK in 1254ms (Views: 3.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:24:17 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | GC: 0.0ms)
+Completed 200 OK in 1124ms (Views: 2.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:24:23 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | GC: 0.0ms)
+Completed 200 OK in 1128ms (Views: 3.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:24:40 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BryansWorldApp'*/[0m
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 1.1ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 40.8ms | GC: 0.0ms)
+Completed 200 OK in 1927ms (Views: 47.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-19 13:24:44 -0500
+Processing by PagesController#hobbies as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hobbies.html.erb within layouts/application
+  Rendered pages/hobbies.html.erb within layouts/application (Duration: 1.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | GC: 0.0ms)
+Completed 200 OK in 989ms (Views: 4.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 13:24:46 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | GC: 0.0ms)
+Completed 200 OK in 1060ms (Views: 4.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Writing application-11908456.css
+Writing manifest-e8dc057d.js
+Writing chessboard-a36fbcee.jpeg
+Writing coding-b27c113e.jpg
+Writing desktop-510a2297.ini
+Writing github-c3a8328b.png
+Writing linkedin-b01e6815.png
+Writing LinkedInWeddingSmall-b5a4fec3.JPG
+Writing maps-010d195d.png
+Writing profile-581406e0.png
+Writing tea-a401844f.jpg
+Writing ukes-112d9682.jpg
+Writing zen-811b6d57.jpg
+Writing application-4e6931bd.scss
+Writing pages.css-98ece1a3.scss
+Writing application-bfcdf840.js
+Writing controllers/application-3affb389.js
+Writing controllers/hello_controller-708796bd.js
+Writing controllers/index-ee64e1f1.js
+Writing stimulus-autoloader-9d447422.js
+Writing stimulus-importmap-autoloader-64cc03e1.js
+Writing stimulus-loading-1fc53fe7.js
+Writing stimulus-d59b3b7f.js
+Writing stimulus.min-4b1e420e.js
+Writing stimulus.min-2395e199.js.map
+Writing turbo-86e38c3c.js
+Writing turbo.min-fae85750.js
+Writing turbo.min-5dd5a71a.js.map
+Writing actiontext.esm-f1c04d34.js
+Writing actiontext-a4ee937e.js
+Writing trix-0d050b00.js
+Writing trix-c4e7be2d.css
+Writing actioncable.esm-e0ec9819.js
+Writing actioncable-ac25813f.js
+Writing action_cable-5212cfee.js
+Writing activestorage.esm-f2909226.js
+Writing activestorage-32201f68.js
+Writing rails-ujs.esm-e925103b.js
+Writing rails-ujs-20eaf715.js
+Writing popper-2d47ff71.js
+Writing bootstrap/forms/_floating-labels-714df10e.scss
+Writing bootstrap/forms/_form-check-b7d4870e.scss
+Writing bootstrap/forms/_form-control-307f8e9f.scss
+Writing bootstrap/forms/_form-range-74e2161b.scss
+Writing bootstrap/forms/_form-select-d0308d60.scss
+Writing bootstrap/forms/_form-text-7c2fda40.scss
+Writing bootstrap/forms/_input-group-49b8a9e5.scss
+Writing bootstrap/forms/_labels-1b731f03.scss
+Writing bootstrap/forms/_validation-151c52c9.scss
+Writing bootstrap/helpers/_clearfix-8dac4602.scss
+Writing bootstrap/helpers/_color-bg-2db55925.scss
+Writing bootstrap/helpers/_colored-links-b69bbe94.scss
+Writing bootstrap/helpers/_focus-ring-171a2d9a.scss
+Writing bootstrap/helpers/_icon-link-c09f7d2b.scss
+Writing bootstrap/helpers/_position-31bee6a5.scss
+Writing bootstrap/helpers/_ratio-fca4c813.scss
+Writing bootstrap/helpers/_stacks-41033c09.scss
+Writing bootstrap/helpers/_stretched-link-0af9b4e7.scss
+Writing bootstrap/helpers/_text-truncation-2f470970.scss
+Writing bootstrap/helpers/_visually-hidden-156e67e4.scss
+Writing bootstrap/helpers/_vr-f3405a55.scss
+Writing bootstrap/mixins/_alert-b321b422.scss
+Writing bootstrap/mixins/_backdrop-a7ab44fa.scss
+Writing bootstrap/mixins/_banner-12a12d6b.scss
+Writing bootstrap/mixins/_border-radius-d478fb3f.scss
+Writing bootstrap/mixins/_box-shadow-605f0147.scss
+Writing bootstrap/mixins/_breakpoints-9172ff16.scss
+Writing bootstrap/mixins/_buttons-1d842813.scss
+Writing bootstrap/mixins/_caret-6acc8ad0.scss
+Writing bootstrap/mixins/_clearfix-00a000b1.scss
+Writing bootstrap/mixins/_color-mode-5049b0a2.scss
+Writing bootstrap/mixins/_color-scheme-35b23bbc.scss
+Writing bootstrap/mixins/_container-351d4d18.scss
+Writing bootstrap/mixins/_deprecate-ea93c726.scss
+Writing bootstrap/mixins/_forms-fdacfc6c.scss
+Writing bootstrap/mixins/_gradients-96ac5e14.scss
+Writing bootstrap/mixins/_grid-ac8bd8c6.scss
+Writing bootstrap/mixins/_image-e28a29ad.scss
+Writing bootstrap/mixins/_list-group-be10e0b5.scss
+Writing bootstrap/mixins/_lists-c501225b.scss
+Writing bootstrap/mixins/_pagination-93a6e01d.scss
+Writing bootstrap/mixins/_reset-text-e30147e3.scss
+Writing bootstrap/mixins/_resize-dabe0451.scss
+Writing bootstrap/mixins/_table-variants-792c3cd8.scss
+Writing bootstrap/mixins/_text-truncate-8b4e7004.scss
+Writing bootstrap/mixins/_transition-587f238b.scss
+Writing bootstrap/mixins/_utilities-82ddfff0.scss
+Writing bootstrap/mixins/_visually-hidden-78e7fbe6.scss
+Writing bootstrap/utilities/_api-11dcc5c9.scss
+Writing bootstrap/vendor/_rfs-8466fd17.scss
+Writing bootstrap/_accordion-c4570cab.scss
+Writing bootstrap/_alert-a5de64a2.scss
+Writing bootstrap/_badge-2879968c.scss
+Writing bootstrap/_breadcrumb-34b74197.scss
+Writing bootstrap/_button-group-0ab8a0c1.scss
+Writing bootstrap/_buttons-1e0fefdc.scss
+Writing bootstrap/_card-80b65792.scss
+Writing bootstrap/_carousel-1a42a0cd.scss
+Writing bootstrap/_close-bbc67080.scss
+Writing bootstrap/_containers-be6e2e5a.scss
+Writing bootstrap/_dropdown-9c36640f.scss
+Writing bootstrap/_forms-592799d7.scss
+Writing bootstrap/_functions-560be441.scss
+Writing bootstrap/_grid-6de5b312.scss
+Writing bootstrap/_helpers-298158c9.scss
+Writing bootstrap/_images-ae79f639.scss
+Writing bootstrap/_list-group-f1abebc0.scss
+Writing bootstrap/_maps-a7dff9e2.scss
+Writing bootstrap/_mixins-c68bef8a.scss
+Writing bootstrap/_modal-7e603894.scss
+Writing bootstrap/_nav-d921a3a7.scss
+Writing bootstrap/_navbar-9f221b21.scss
+Writing bootstrap/_offcanvas-8be95ac1.scss
+Writing bootstrap/_pagination-b5398b9d.scss
+Writing bootstrap/_placeholders-1483058a.scss
+Writing bootstrap/_popover-94f188a4.scss
+Writing bootstrap/_progress-9db63911.scss
+Writing bootstrap/_reboot-138f4d6a.scss
+Writing bootstrap/_root-06961be3.scss
+Writing bootstrap/_spinners-df3c98e6.scss
+Writing bootstrap/_tables-caa80806.scss
+Writing bootstrap/_toasts-b8e14752.scss
+Writing bootstrap/_tooltip-85e4fc73.scss
+Writing bootstrap/_transitions-712bdd06.scss
+Writing bootstrap/_type-16e97b22.scss
+Writing bootstrap/_utilities-ef36e5e2.scss
+Writing bootstrap/_variables-dark-8985a137.scss
+Writing bootstrap/_variables-35d5a383.scss
+Writing _bootstrap-grid-72fa96f6.scss
+Writing _bootstrap-reboot-d0291d94.scss
+Writing _bootstrap-utilities-1c1ba8b8.scss
+Writing _bootstrap-5545bd2b.scss
+Writing bootstrap/alert-66df7f3e.js
+Writing bootstrap/base-component-8075085c.js
+Writing bootstrap/button-8b20367a.js
+Writing bootstrap/carousel-5bc24b7c.js
+Writing bootstrap/collapse-aa024be5.js
+Writing bootstrap/dom/data-f43590c3.js
+Writing bootstrap/dom/event-handler-7d26f499.js
+Writing bootstrap/dom/manipulator-7ba5090b.js
+Writing bootstrap/dom/selector-engine-6548d098.js
+Writing bootstrap/dropdown-5e6f3002.js
+Writing bootstrap/modal-3d17e5f4.js
+Writing bootstrap/offcanvas-946b6e14.js
+Writing bootstrap/popover-2958caee.js
+Writing bootstrap/scrollspy-69ea1667.js
+Writing bootstrap/tab-ca6aeca4.js
+Writing bootstrap/toast-1740ea52.js
+Writing bootstrap/tooltip-58e2fe7b.js
+Writing bootstrap/util/backdrop-6f3f9f82.js
+Writing bootstrap/util/component-functions-0367e3d1.js
+Writing bootstrap/util/config-4c24c381.js
+Writing bootstrap/util/focustrap-94b80a03.js
+Writing bootstrap/util/index-e324f34b.js
+Writing bootstrap/util/sanitizer-c3830c3c.js
+Writing bootstrap/util/scrollbar-5bb4c463.js
+Writing bootstrap/util/swipe-85cf65d2.js
+Writing bootstrap/util/template-factory-14fb5bc1.js
+Writing bootstrap-global-this-define-525df91c.js
+Writing bootstrap-global-this-undefine-9fc5700f.js
+Writing bootstrap-sprockets-28d2540f.js
+Writing bootstrap-a79be8c1.js
+Writing bootstrap.min-cdc50fbe.js
+Writing application-d3bf47e5.css
+Writing manifest-e8dc057d.js
+Writing chessboard-a36fbcee.jpeg
+Writing coding-b27c113e.jpg
+Writing desktop-510a2297.ini
+Writing github-c3a8328b.png
+Writing linkedin-b01e6815.png
+Writing LinkedInWeddingSmall-b5a4fec3.JPG
+Writing maps-010d195d.png
+Writing profile-581406e0.png
+Writing tea-a401844f.jpg
+Writing ukes-112d9682.jpg
+Writing zen-811b6d57.jpg
+Writing application-4e6931bd.scss
+Writing pages.css-24a06a4b.scss
+Writing application-bfcdf840.js
+Writing controllers/application-3affb389.js
+Writing controllers/hello_controller-708796bd.js
+Writing controllers/index-ee64e1f1.js
+Writing stimulus-autoloader-9d447422.js
+Writing stimulus-importmap-autoloader-64cc03e1.js
+Writing stimulus-loading-1fc53fe7.js
+Writing stimulus-d59b3b7f.js
+Writing stimulus.min-4b1e420e.js
+Writing stimulus.min-2395e199.js.map
+Writing turbo-86e38c3c.js
+Writing turbo.min-fae85750.js
+Writing turbo.min-5dd5a71a.js.map
+Writing actiontext.esm-f1c04d34.js
+Writing actiontext-a4ee937e.js
+Writing trix-0d050b00.js
+Writing trix-c4e7be2d.css
+Writing actioncable.esm-e0ec9819.js
+Writing actioncable-ac25813f.js
+Writing action_cable-5212cfee.js
+Writing activestorage.esm-f2909226.js
+Writing activestorage-32201f68.js
+Writing rails-ujs.esm-e925103b.js
+Writing rails-ujs-20eaf715.js
+Writing popper-2d47ff71.js
+Writing bootstrap/forms/_floating-labels-714df10e.scss
+Writing bootstrap/forms/_form-check-b7d4870e.scss
+Writing bootstrap/forms/_form-control-307f8e9f.scss
+Writing bootstrap/forms/_form-range-74e2161b.scss
+Writing bootstrap/forms/_form-select-d0308d60.scss
+Writing bootstrap/forms/_form-text-7c2fda40.scss
+Writing bootstrap/forms/_input-group-49b8a9e5.scss
+Writing bootstrap/forms/_labels-1b731f03.scss
+Writing bootstrap/forms/_validation-151c52c9.scss
+Writing bootstrap/helpers/_clearfix-8dac4602.scss
+Writing bootstrap/helpers/_color-bg-2db55925.scss
+Writing bootstrap/helpers/_colored-links-b69bbe94.scss
+Writing bootstrap/helpers/_focus-ring-171a2d9a.scss
+Writing bootstrap/helpers/_icon-link-c09f7d2b.scss
+Writing bootstrap/helpers/_position-31bee6a5.scss
+Writing bootstrap/helpers/_ratio-fca4c813.scss
+Writing bootstrap/helpers/_stacks-41033c09.scss
+Writing bootstrap/helpers/_stretched-link-0af9b4e7.scss
+Writing bootstrap/helpers/_text-truncation-2f470970.scss
+Writing bootstrap/helpers/_visually-hidden-156e67e4.scss
+Writing bootstrap/helpers/_vr-f3405a55.scss
+Writing bootstrap/mixins/_alert-b321b422.scss
+Writing bootstrap/mixins/_backdrop-a7ab44fa.scss
+Writing bootstrap/mixins/_banner-12a12d6b.scss
+Writing bootstrap/mixins/_border-radius-d478fb3f.scss
+Writing bootstrap/mixins/_box-shadow-605f0147.scss
+Writing bootstrap/mixins/_breakpoints-9172ff16.scss
+Writing bootstrap/mixins/_buttons-1d842813.scss
+Writing bootstrap/mixins/_caret-6acc8ad0.scss
+Writing bootstrap/mixins/_clearfix-00a000b1.scss
+Writing bootstrap/mixins/_color-mode-5049b0a2.scss
+Writing bootstrap/mixins/_color-scheme-35b23bbc.scss
+Writing bootstrap/mixins/_container-351d4d18.scss
+Writing bootstrap/mixins/_deprecate-ea93c726.scss
+Writing bootstrap/mixins/_forms-fdacfc6c.scss
+Writing bootstrap/mixins/_gradients-96ac5e14.scss
+Writing bootstrap/mixins/_grid-ac8bd8c6.scss
+Writing bootstrap/mixins/_image-e28a29ad.scss
+Writing bootstrap/mixins/_list-group-be10e0b5.scss
+Writing bootstrap/mixins/_lists-c501225b.scss
+Writing bootstrap/mixins/_pagination-93a6e01d.scss
+Writing bootstrap/mixins/_reset-text-e30147e3.scss
+Writing bootstrap/mixins/_resize-dabe0451.scss
+Writing bootstrap/mixins/_table-variants-792c3cd8.scss
+Writing bootstrap/mixins/_text-truncate-8b4e7004.scss
+Writing bootstrap/mixins/_transition-587f238b.scss
+Writing bootstrap/mixins/_utilities-82ddfff0.scss
+Writing bootstrap/mixins/_visually-hidden-78e7fbe6.scss
+Writing bootstrap/utilities/_api-11dcc5c9.scss
+Writing bootstrap/vendor/_rfs-8466fd17.scss
+Writing bootstrap/_accordion-c4570cab.scss
+Writing bootstrap/_alert-a5de64a2.scss
+Writing bootstrap/_badge-2879968c.scss
+Writing bootstrap/_breadcrumb-34b74197.scss
+Writing bootstrap/_button-group-0ab8a0c1.scss
+Writing bootstrap/_buttons-1e0fefdc.scss
+Writing bootstrap/_card-80b65792.scss
+Writing bootstrap/_carousel-1a42a0cd.scss
+Writing bootstrap/_close-bbc67080.scss
+Writing bootstrap/_containers-be6e2e5a.scss
+Writing bootstrap/_dropdown-9c36640f.scss
+Writing bootstrap/_forms-592799d7.scss
+Writing bootstrap/_functions-560be441.scss
+Writing bootstrap/_grid-6de5b312.scss
+Writing bootstrap/_helpers-298158c9.scss
+Writing bootstrap/_images-ae79f639.scss
+Writing bootstrap/_list-group-f1abebc0.scss
+Writing bootstrap/_maps-a7dff9e2.scss
+Writing bootstrap/_mixins-c68bef8a.scss
+Writing bootstrap/_modal-7e603894.scss
+Writing bootstrap/_nav-d921a3a7.scss
+Writing bootstrap/_navbar-9f221b21.scss
+Writing bootstrap/_offcanvas-8be95ac1.scss
+Writing bootstrap/_pagination-b5398b9d.scss
+Writing bootstrap/_placeholders-1483058a.scss
+Writing bootstrap/_popover-94f188a4.scss
+Writing bootstrap/_progress-9db63911.scss
+Writing bootstrap/_reboot-138f4d6a.scss
+Writing bootstrap/_root-06961be3.scss
+Writing bootstrap/_spinners-df3c98e6.scss
+Writing bootstrap/_tables-caa80806.scss
+Writing bootstrap/_toasts-b8e14752.scss
+Writing bootstrap/_tooltip-85e4fc73.scss
+Writing bootstrap/_transitions-712bdd06.scss
+Writing bootstrap/_type-16e97b22.scss
+Writing bootstrap/_utilities-ef36e5e2.scss
+Writing bootstrap/_variables-dark-8985a137.scss
+Writing bootstrap/_variables-35d5a383.scss
+Writing _bootstrap-grid-72fa96f6.scss
+Writing _bootstrap-reboot-d0291d94.scss
+Writing _bootstrap-utilities-1c1ba8b8.scss
+Writing _bootstrap-5545bd2b.scss
+Writing bootstrap/alert-66df7f3e.js
+Writing bootstrap/base-component-8075085c.js
+Writing bootstrap/button-8b20367a.js
+Writing bootstrap/carousel-5bc24b7c.js
+Writing bootstrap/collapse-aa024be5.js
+Writing bootstrap/dom/data-f43590c3.js
+Writing bootstrap/dom/event-handler-7d26f499.js
+Writing bootstrap/dom/manipulator-7ba5090b.js
+Writing bootstrap/dom/selector-engine-6548d098.js
+Writing bootstrap/dropdown-5e6f3002.js
+Writing bootstrap/modal-3d17e5f4.js
+Writing bootstrap/offcanvas-946b6e14.js
+Writing bootstrap/popover-2958caee.js
+Writing bootstrap/scrollspy-69ea1667.js
+Writing bootstrap/tab-ca6aeca4.js
+Writing bootstrap/toast-1740ea52.js
+Writing bootstrap/tooltip-58e2fe7b.js
+Writing bootstrap/util/backdrop-6f3f9f82.js
+Writing bootstrap/util/component-functions-0367e3d1.js
+Writing bootstrap/util/config-4c24c381.js
+Writing bootstrap/util/focustrap-94b80a03.js
+Writing bootstrap/util/index-e324f34b.js
+Writing bootstrap/util/sanitizer-c3830c3c.js
+Writing bootstrap/util/scrollbar-5bb4c463.js
+Writing bootstrap/util/swipe-85cf65d2.js
+Writing bootstrap/util/template-factory-14fb5bc1.js
+Writing bootstrap-global-this-define-525df91c.js
+Writing bootstrap-global-this-undefine-9fc5700f.js
+Writing bootstrap-sprockets-28d2540f.js
+Writing bootstrap-a79be8c1.js
+Writing bootstrap.min-cdc50fbe.js

@@ -3,4 +3,6 @@ class PagesController < ApplicationController
   end
   def hobbies
   end
+  def mindfulness
+  end
 end

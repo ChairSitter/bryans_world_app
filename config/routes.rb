@@ -13,4 +13,5 @@ Rails.application.routes.draw do
   # root "posts#index"
   root to: "pages#welcome", as: :welcome
   get "hobbies", to: "pages#hobbies", as: :hobbies
+  get "mindfulness", to: "pages#mindfulness", as: :mindfulness
 end

@@ -92,6 +92,32 @@ nav > div {
     margin: 15px;
 }
 
+/*Mindfulness Page*/
+
+#mindfulness {
+    margin: 30px;
+    padding: 10px;
+}
+
+#mindfulness-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+}
+
+#mindfulness-grid > div {
+    background-color: rgb(211, 211, 211);
+    border: 1px dotted black;
+    padding: 30px;
+}
+
+#mindfulness-grid > div > img {
+    width: 320px;
+    height: auto;
+    margin: 15px;
+}
+
 /*Footer*/
 
 footer {
