@@ -21333,3 +21333,657 @@ Writing bootstrap-global-this-undefine-9fc5700f.js
 Writing bootstrap-sprockets-28d2540f.js
 Writing bootstrap-a79be8c1.js
 Writing bootstrap.min-cdc50fbe.js
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-17 14:11:12 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BryansWorldApp'*/[0m
+Processing by PagesController#hobbies as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hobbies.html.erb within layouts/application
+  Rendered pages/hobbies.html.erb within layouts/application (Duration: 1.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 41.9ms | GC: 0.0ms)
+Completed 200 OK in 1979ms (Views: 49.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-17 14:11:14 -0500
+Processing by PagesController#hobbies as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hobbies.html.erb within layouts/application
+  Rendered pages/hobbies.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | GC: 0.0ms)
+Completed 200 OK in 986ms (Views: 3.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-17 14:56:53 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 1.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | GC: 0.0ms)
+Completed 200 OK in 1207ms (Views: 6.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-17 14:56:57 -0500
+Processing by PagesController#hobbies as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hobbies.html.erb within layouts/application
+  Rendered pages/hobbies.html.erb within layouts/application (Duration: 1.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | GC: 0.0ms)
+Completed 200 OK in 1157ms (Views: 3.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-17 15:01:35 -0500
+Processing by PagesController#hobbies as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hobbies.html.erb within layouts/application
+  Rendered pages/hobbies.html.erb within layouts/application (Duration: 1.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | GC: 0.0ms)
+Completed 200 OK in 3927ms (Views: 8.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-17 15:02:46 -0500
+Processing by PagesController#welcome as HTML
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-17 15:02:47 -0500
+Processing by PagesController#hobbies as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 2.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | GC: 0.0ms)
+Completed 200 OK in 4582ms (Views: 16.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hobbies.html.erb within layouts/application
+  Rendered pages/hobbies.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | GC: 0.0ms)
+Completed 200 OK in 4731ms (Views: 3.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-17 15:02:53 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | GC: 0.0ms)
+Completed 200 OK in 3417ms (Views: 5.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-17 15:02:57 -0500
+Processing by PagesController#hobbies as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hobbies.html.erb within layouts/application
+  Rendered pages/hobbies.html.erb within layouts/application (Duration: 1.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | GC: 0.0ms)
+Completed 200 OK in 3468ms (Views: 6.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-17 15:05:00 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | GC: 0.0ms)
+Completed 200 OK in 3359ms (Views: 3.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-17 20:12:43 -0500
+Processing by PagesController#hobbies as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hobbies.html.erb within layouts/application
+  Rendered pages/hobbies.html.erb within layouts/application (Duration: 3.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 68.1ms | GC: 0.0ms)
+Completed 200 OK in 3745ms (Views: 73.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-17 20:12:47 -0500
+Processing by PagesController#hobbies as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hobbies.html.erb within layouts/application
+  Rendered pages/hobbies.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | GC: 0.0ms)
+Completed 200 OK in 3607ms (Views: 4.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-19 11:38:21 -0500
+Processing by PagesController#hobbies as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hobbies.html.erb within layouts/application
+  Rendered pages/hobbies.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | GC: 0.0ms)
+Completed 200 OK in 3394ms (Views: 3.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 11:40:44 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | GC: 0.0ms)
+Completed 200 OK in 943ms (Views: 2.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 11:40:45 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.3ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | GC: 0.0ms)
+Completed 200 OK in 947ms (Views: 2.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 11:40:58 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | GC: 0.0ms)
+Completed 200 OK in 1151ms (Views: 2.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 11:41:03 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | GC: 0.0ms)
+Completed 200 OK in 1144ms (Views: 3.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Writing application-11908456.css
+Writing manifest-e8dc057d.js
+Writing chessboard-a36fbcee.jpeg
+Writing coding-b27c113e.jpg
+Writing desktop-510a2297.ini
+Writing github-c3a8328b.png
+Writing linkedin-b01e6815.png
+Writing LinkedInWeddingSmall-b5a4fec3.JPG
+Writing maps-010d195d.png
+Writing profile-581406e0.png
+Writing ukes-112d9682.jpg
+Writing application-4e6931bd.scss
+Writing pages.css-98ece1a3.scss
+Writing application-bfcdf840.js
+Writing controllers/application-3affb389.js
+Writing controllers/hello_controller-708796bd.js
+Writing controllers/index-ee64e1f1.js
+Writing stimulus-autoloader-9d447422.js
+Writing stimulus-importmap-autoloader-64cc03e1.js
+Writing stimulus-loading-1fc53fe7.js
+Writing stimulus-d59b3b7f.js
+Writing stimulus.min-4b1e420e.js
+Writing stimulus.min-2395e199.js.map
+Writing turbo-86e38c3c.js
+Writing turbo.min-fae85750.js
+Writing turbo.min-5dd5a71a.js.map
+Writing actiontext.esm-f1c04d34.js
+Writing actiontext-a4ee937e.js
+Writing trix-0d050b00.js
+Writing trix-c4e7be2d.css
+Writing actioncable.esm-e0ec9819.js
+Writing actioncable-ac25813f.js
+Writing action_cable-5212cfee.js
+Writing activestorage.esm-f2909226.js
+Writing activestorage-32201f68.js
+Writing rails-ujs.esm-e925103b.js
+Writing rails-ujs-20eaf715.js
+Writing popper-2d47ff71.js
+Writing bootstrap/forms/_floating-labels-714df10e.scss
+Writing bootstrap/forms/_form-check-b7d4870e.scss
+Writing bootstrap/forms/_form-control-307f8e9f.scss
+Writing bootstrap/forms/_form-range-74e2161b.scss
+Writing bootstrap/forms/_form-select-d0308d60.scss
+Writing bootstrap/forms/_form-text-7c2fda40.scss
+Writing bootstrap/forms/_input-group-49b8a9e5.scss
+Writing bootstrap/forms/_labels-1b731f03.scss
+Writing bootstrap/forms/_validation-151c52c9.scss
+Writing bootstrap/helpers/_clearfix-8dac4602.scss
+Writing bootstrap/helpers/_color-bg-2db55925.scss
+Writing bootstrap/helpers/_colored-links-b69bbe94.scss
+Writing bootstrap/helpers/_focus-ring-171a2d9a.scss
+Writing bootstrap/helpers/_icon-link-c09f7d2b.scss
+Writing bootstrap/helpers/_position-31bee6a5.scss
+Writing bootstrap/helpers/_ratio-fca4c813.scss
+Writing bootstrap/helpers/_stacks-41033c09.scss
+Writing bootstrap/helpers/_stretched-link-0af9b4e7.scss
+Writing bootstrap/helpers/_text-truncation-2f470970.scss
+Writing bootstrap/helpers/_visually-hidden-156e67e4.scss
+Writing bootstrap/helpers/_vr-f3405a55.scss
+Writing bootstrap/mixins/_alert-b321b422.scss
+Writing bootstrap/mixins/_backdrop-a7ab44fa.scss
+Writing bootstrap/mixins/_banner-12a12d6b.scss
+Writing bootstrap/mixins/_border-radius-d478fb3f.scss
+Writing bootstrap/mixins/_box-shadow-605f0147.scss
+Writing bootstrap/mixins/_breakpoints-9172ff16.scss
+Writing bootstrap/mixins/_buttons-1d842813.scss
+Writing bootstrap/mixins/_caret-6acc8ad0.scss
+Writing bootstrap/mixins/_clearfix-00a000b1.scss
+Writing bootstrap/mixins/_color-mode-5049b0a2.scss
+Writing bootstrap/mixins/_color-scheme-35b23bbc.scss
+Writing bootstrap/mixins/_container-351d4d18.scss
+Writing bootstrap/mixins/_deprecate-ea93c726.scss
+Writing bootstrap/mixins/_forms-fdacfc6c.scss
+Writing bootstrap/mixins/_gradients-96ac5e14.scss
+Writing bootstrap/mixins/_grid-ac8bd8c6.scss
+Writing bootstrap/mixins/_image-e28a29ad.scss
+Writing bootstrap/mixins/_list-group-be10e0b5.scss
+Writing bootstrap/mixins/_lists-c501225b.scss
+Writing bootstrap/mixins/_pagination-93a6e01d.scss
+Writing bootstrap/mixins/_reset-text-e30147e3.scss
+Writing bootstrap/mixins/_resize-dabe0451.scss
+Writing bootstrap/mixins/_table-variants-792c3cd8.scss
+Writing bootstrap/mixins/_text-truncate-8b4e7004.scss
+Writing bootstrap/mixins/_transition-587f238b.scss
+Writing bootstrap/mixins/_utilities-82ddfff0.scss
+Writing bootstrap/mixins/_visually-hidden-78e7fbe6.scss
+Writing bootstrap/utilities/_api-11dcc5c9.scss
+Writing bootstrap/vendor/_rfs-8466fd17.scss
+Writing bootstrap/_accordion-c4570cab.scss
+Writing bootstrap/_alert-a5de64a2.scss
+Writing bootstrap/_badge-2879968c.scss
+Writing bootstrap/_breadcrumb-34b74197.scss
+Writing bootstrap/_button-group-0ab8a0c1.scss
+Writing bootstrap/_buttons-1e0fefdc.scss
+Writing bootstrap/_card-80b65792.scss
+Writing bootstrap/_carousel-1a42a0cd.scss
+Writing bootstrap/_close-bbc67080.scss
+Writing bootstrap/_containers-be6e2e5a.scss
+Writing bootstrap/_dropdown-9c36640f.scss
+Writing bootstrap/_forms-592799d7.scss
+Writing bootstrap/_functions-560be441.scss
+Writing bootstrap/_grid-6de5b312.scss
+Writing bootstrap/_helpers-298158c9.scss
+Writing bootstrap/_images-ae79f639.scss
+Writing bootstrap/_list-group-f1abebc0.scss
+Writing bootstrap/_maps-a7dff9e2.scss
+Writing bootstrap/_mixins-c68bef8a.scss
+Writing bootstrap/_modal-7e603894.scss
+Writing bootstrap/_nav-d921a3a7.scss
+Writing bootstrap/_navbar-9f221b21.scss
+Writing bootstrap/_offcanvas-8be95ac1.scss
+Writing bootstrap/_pagination-b5398b9d.scss
+Writing bootstrap/_placeholders-1483058a.scss
+Writing bootstrap/_popover-94f188a4.scss
+Writing bootstrap/_progress-9db63911.scss
+Writing bootstrap/_reboot-138f4d6a.scss
+Writing bootstrap/_root-06961be3.scss
+Writing bootstrap/_spinners-df3c98e6.scss
+Writing bootstrap/_tables-caa80806.scss
+Writing bootstrap/_toasts-b8e14752.scss
+Writing bootstrap/_tooltip-85e4fc73.scss
+Writing bootstrap/_transitions-712bdd06.scss
+Writing bootstrap/_type-16e97b22.scss
+Writing bootstrap/_utilities-ef36e5e2.scss
+Writing bootstrap/_variables-dark-8985a137.scss
+Writing bootstrap/_variables-35d5a383.scss
+Writing _bootstrap-grid-72fa96f6.scss
+Writing _bootstrap-reboot-d0291d94.scss
+Writing _bootstrap-utilities-1c1ba8b8.scss
+Writing _bootstrap-5545bd2b.scss
+Writing bootstrap/alert-66df7f3e.js
+Writing bootstrap/base-component-8075085c.js
+Writing bootstrap/button-8b20367a.js
+Writing bootstrap/carousel-5bc24b7c.js
+Writing bootstrap/collapse-aa024be5.js
+Writing bootstrap/dom/data-f43590c3.js
+Writing bootstrap/dom/event-handler-7d26f499.js
+Writing bootstrap/dom/manipulator-7ba5090b.js
+Writing bootstrap/dom/selector-engine-6548d098.js
+Writing bootstrap/dropdown-5e6f3002.js
+Writing bootstrap/modal-3d17e5f4.js
+Writing bootstrap/offcanvas-946b6e14.js
+Writing bootstrap/popover-2958caee.js
+Writing bootstrap/scrollspy-69ea1667.js
+Writing bootstrap/tab-ca6aeca4.js
+Writing bootstrap/toast-1740ea52.js
+Writing bootstrap/tooltip-58e2fe7b.js
+Writing bootstrap/util/backdrop-6f3f9f82.js
+Writing bootstrap/util/component-functions-0367e3d1.js
+Writing bootstrap/util/config-4c24c381.js
+Writing bootstrap/util/focustrap-94b80a03.js
+Writing bootstrap/util/index-e324f34b.js
+Writing bootstrap/util/sanitizer-c3830c3c.js
+Writing bootstrap/util/scrollbar-5bb4c463.js
+Writing bootstrap/util/swipe-85cf65d2.js
+Writing bootstrap/util/template-factory-14fb5bc1.js
+Writing bootstrap-global-this-define-525df91c.js
+Writing bootstrap-global-this-undefine-9fc5700f.js
+Writing bootstrap-sprockets-28d2540f.js
+Writing bootstrap-a79be8c1.js
+Writing bootstrap.min-cdc50fbe.js
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-19 11:50:32 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BryansWorldApp'*/[0m
+Processing by PagesController#hobbies as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hobbies.html.erb within layouts/application
+  Rendered pages/hobbies.html.erb within layouts/application (Duration: 2.0ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 150.8ms | GC: 0.0ms)
+Completed 200 OK in 3013ms (Views: 346.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/LinkedInWeddingSmall.JPG" for 127.0.0.1 at 2025-02-19 11:50:37 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/LinkedInWeddingSmall.JPG"):
+  
+Writing application-11908456.css
+Writing manifest-e8dc057d.js
+Writing chessboard-a36fbcee.jpeg
+Writing coding-b27c113e.jpg
+Writing desktop-510a2297.ini
+Writing github-c3a8328b.png
+Writing linkedin-b01e6815.png
+Writing LinkedInWeddingSmall-b5a4fec3.JPG
+Writing maps-010d195d.png
+Writing profile-581406e0.png
+Writing ukes-112d9682.jpg
+Writing application-4e6931bd.scss
+Writing pages.css-98ece1a3.scss
+Writing application-bfcdf840.js
+Writing controllers/application-3affb389.js
+Writing controllers/hello_controller-708796bd.js
+Writing controllers/index-ee64e1f1.js
+Writing stimulus-autoloader-9d447422.js
+Writing stimulus-importmap-autoloader-64cc03e1.js
+Writing stimulus-loading-1fc53fe7.js
+Writing stimulus-d59b3b7f.js
+Writing stimulus.min-4b1e420e.js
+Writing stimulus.min-2395e199.js.map
+Writing turbo-86e38c3c.js
+Writing turbo.min-fae85750.js
+Writing turbo.min-5dd5a71a.js.map
+Writing actiontext.esm-f1c04d34.js
+Writing actiontext-a4ee937e.js
+Writing trix-0d050b00.js
+Writing trix-c4e7be2d.css
+Writing actioncable.esm-e0ec9819.js
+Writing actioncable-ac25813f.js
+Writing action_cable-5212cfee.js
+Writing activestorage.esm-f2909226.js
+Writing activestorage-32201f68.js
+Writing rails-ujs.esm-e925103b.js
+Writing rails-ujs-20eaf715.js
+Writing popper-2d47ff71.js
+Writing bootstrap/forms/_floating-labels-714df10e.scss
+Writing bootstrap/forms/_form-check-b7d4870e.scss
+Writing bootstrap/forms/_form-control-307f8e9f.scss
+Writing bootstrap/forms/_form-range-74e2161b.scss
+Writing bootstrap/forms/_form-select-d0308d60.scss
+Writing bootstrap/forms/_form-text-7c2fda40.scss
+Writing bootstrap/forms/_input-group-49b8a9e5.scss
+Writing bootstrap/forms/_labels-1b731f03.scss
+Writing bootstrap/forms/_validation-151c52c9.scss
+Writing bootstrap/helpers/_clearfix-8dac4602.scss
+Writing bootstrap/helpers/_color-bg-2db55925.scss
+Writing bootstrap/helpers/_colored-links-b69bbe94.scss
+Writing bootstrap/helpers/_focus-ring-171a2d9a.scss
+Writing bootstrap/helpers/_icon-link-c09f7d2b.scss
+Writing bootstrap/helpers/_position-31bee6a5.scss
+Writing bootstrap/helpers/_ratio-fca4c813.scss
+Writing bootstrap/helpers/_stacks-41033c09.scss
+Writing bootstrap/helpers/_stretched-link-0af9b4e7.scss
+Writing bootstrap/helpers/_text-truncation-2f470970.scss
+Writing bootstrap/helpers/_visually-hidden-156e67e4.scss
+Writing bootstrap/helpers/_vr-f3405a55.scss
+Writing bootstrap/mixins/_alert-b321b422.scss
+Writing bootstrap/mixins/_backdrop-a7ab44fa.scss
+Writing bootstrap/mixins/_banner-12a12d6b.scss
+Writing bootstrap/mixins/_border-radius-d478fb3f.scss
+Writing bootstrap/mixins/_box-shadow-605f0147.scss
+Writing bootstrap/mixins/_breakpoints-9172ff16.scss
+Writing bootstrap/mixins/_buttons-1d842813.scss
+Writing bootstrap/mixins/_caret-6acc8ad0.scss
+Writing bootstrap/mixins/_clearfix-00a000b1.scss
+Writing bootstrap/mixins/_color-mode-5049b0a2.scss
+Writing bootstrap/mixins/_color-scheme-35b23bbc.scss
+Writing bootstrap/mixins/_container-351d4d18.scss
+Writing bootstrap/mixins/_deprecate-ea93c726.scss
+Writing bootstrap/mixins/_forms-fdacfc6c.scss
+Writing bootstrap/mixins/_gradients-96ac5e14.scss
+Writing bootstrap/mixins/_grid-ac8bd8c6.scss
+Writing bootstrap/mixins/_image-e28a29ad.scss
+Writing bootstrap/mixins/_list-group-be10e0b5.scss
+Writing bootstrap/mixins/_lists-c501225b.scss
+Writing bootstrap/mixins/_pagination-93a6e01d.scss
+Writing bootstrap/mixins/_reset-text-e30147e3.scss
+Writing bootstrap/mixins/_resize-dabe0451.scss
+Writing bootstrap/mixins/_table-variants-792c3cd8.scss
+Writing bootstrap/mixins/_text-truncate-8b4e7004.scss
+Writing bootstrap/mixins/_transition-587f238b.scss
+Writing bootstrap/mixins/_utilities-82ddfff0.scss
+Writing bootstrap/mixins/_visually-hidden-78e7fbe6.scss
+Writing bootstrap/utilities/_api-11dcc5c9.scss
+Writing bootstrap/vendor/_rfs-8466fd17.scss
+Writing bootstrap/_accordion-c4570cab.scss
+Writing bootstrap/_alert-a5de64a2.scss
+Writing bootstrap/_badge-2879968c.scss
+Writing bootstrap/_breadcrumb-34b74197.scss
+Writing bootstrap/_button-group-0ab8a0c1.scss
+Writing bootstrap/_buttons-1e0fefdc.scss
+Writing bootstrap/_card-80b65792.scss
+Writing bootstrap/_carousel-1a42a0cd.scss
+Writing bootstrap/_close-bbc67080.scss
+Writing bootstrap/_containers-be6e2e5a.scss
+Writing bootstrap/_dropdown-9c36640f.scss
+Writing bootstrap/_forms-592799d7.scss
+Writing bootstrap/_functions-560be441.scss
+Writing bootstrap/_grid-6de5b312.scss
+Writing bootstrap/_helpers-298158c9.scss
+Writing bootstrap/_images-ae79f639.scss
+Writing bootstrap/_list-group-f1abebc0.scss
+Writing bootstrap/_maps-a7dff9e2.scss
+Writing bootstrap/_mixins-c68bef8a.scss
+Writing bootstrap/_modal-7e603894.scss
+Writing bootstrap/_nav-d921a3a7.scss
+Writing bootstrap/_navbar-9f221b21.scss
+Writing bootstrap/_offcanvas-8be95ac1.scss
+Writing bootstrap/_pagination-b5398b9d.scss
+Writing bootstrap/_placeholders-1483058a.scss
+Writing bootstrap/_popover-94f188a4.scss
+Writing bootstrap/_progress-9db63911.scss
+Writing bootstrap/_reboot-138f4d6a.scss
+Writing bootstrap/_root-06961be3.scss
+Writing bootstrap/_spinners-df3c98e6.scss
+Writing bootstrap/_tables-caa80806.scss
+Writing bootstrap/_toasts-b8e14752.scss
+Writing bootstrap/_tooltip-85e4fc73.scss
+Writing bootstrap/_transitions-712bdd06.scss
+Writing bootstrap/_type-16e97b22.scss
+Writing bootstrap/_utilities-ef36e5e2.scss
+Writing bootstrap/_variables-dark-8985a137.scss
+Writing bootstrap/_variables-35d5a383.scss
+Writing _bootstrap-grid-72fa96f6.scss
+Writing _bootstrap-reboot-d0291d94.scss
+Writing _bootstrap-utilities-1c1ba8b8.scss
+Writing _bootstrap-5545bd2b.scss
+Writing bootstrap/alert-66df7f3e.js
+Writing bootstrap/base-component-8075085c.js
+Writing bootstrap/button-8b20367a.js
+Writing bootstrap/carousel-5bc24b7c.js
+Writing bootstrap/collapse-aa024be5.js
+Writing bootstrap/dom/data-f43590c3.js
+Writing bootstrap/dom/event-handler-7d26f499.js
+Writing bootstrap/dom/manipulator-7ba5090b.js
+Writing bootstrap/dom/selector-engine-6548d098.js
+Writing bootstrap/dropdown-5e6f3002.js
+Writing bootstrap/modal-3d17e5f4.js
+Writing bootstrap/offcanvas-946b6e14.js
+Writing bootstrap/popover-2958caee.js
+Writing bootstrap/scrollspy-69ea1667.js
+Writing bootstrap/tab-ca6aeca4.js
+Writing bootstrap/toast-1740ea52.js
+Writing bootstrap/tooltip-58e2fe7b.js
+Writing bootstrap/util/backdrop-6f3f9f82.js
+Writing bootstrap/util/component-functions-0367e3d1.js
+Writing bootstrap/util/config-4c24c381.js
+Writing bootstrap/util/focustrap-94b80a03.js
+Writing bootstrap/util/index-e324f34b.js
+Writing bootstrap/util/sanitizer-c3830c3c.js
+Writing bootstrap/util/scrollbar-5bb4c463.js
+Writing bootstrap/util/swipe-85cf65d2.js
+Writing bootstrap/util/template-factory-14fb5bc1.js
+Writing bootstrap-global-this-define-525df91c.js
+Writing bootstrap-global-this-undefine-9fc5700f.js
+Writing bootstrap-sprockets-28d2540f.js
+Writing bootstrap-a79be8c1.js
+Writing bootstrap.min-cdc50fbe.js
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-19 11:51:24 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BryansWorldApp'*/[0m
+Processing by PagesController#hobbies as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hobbies.html.erb within layouts/application
+  Rendered pages/hobbies.html.erb within layouts/application (Duration: 1.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 47.6ms | GC: 0.0ms)
+Completed 200 OK in 1954ms (Views: 174.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 11:51:30 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | GC: 0.0ms)
+Completed 200 OK in 1070ms (Views: 3.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-19 11:51:34 -0500
+Processing by PagesController#hobbies as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hobbies.html.erb within layouts/application
+  Rendered pages/hobbies.html.erb within layouts/application (Duration: 0.5ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | GC: 0.0ms)
+Completed 200 OK in 946ms (Views: 3.6ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 11:51:35 -0500
+Processing by PagesController#welcome as HTML
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-19 11:51:35 -0500
+Processing by PagesController#hobbies as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 1.2ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | GC: 0.0ms)
+Completed 200 OK in 2606ms (Views: 9.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 11:51:38 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hobbies.html.erb within layouts/application
+  Rendered pages/hobbies.html.erb within layouts/application (Duration: 2.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | GC: 0.0ms)
+Completed 200 OK in 2599ms (Views: 12.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-19 11:51:38 -0500
+Processing by PagesController#hobbies as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | GC: 0.0ms)
+Completed 200 OK in 2015ms (Views: 5.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 11:51:40 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hobbies.html.erb within layouts/application
+  Rendered pages/hobbies.html.erb within layouts/application (Duration: 1.4ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | GC: 0.0ms)
+Completed 200 OK in 1986ms (Views: 6.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | GC: 0.0ms)
+Completed 200 OK in 964ms (Views: 3.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 11:58:33 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BryansWorldApp'*/[0m
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 2.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 77.4ms | GC: 0.2ms)
+Completed 200 OK in 2200ms (Views: 218.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 11:59:03 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BryansWorldApp'*/[0m
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 41.3ms | GC: 0.0ms)
+Completed 200 OK in 1820ms (Views: 48.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 11:59:57 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | GC: 0.0ms)
+Completed 200 OK in 1107ms (Views: 128.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/app/assets/images/LinkedInWeddingSmall.JPG" for 127.0.0.1 at 2025-02-19 11:59:59 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/LinkedInWeddingSmall.JPG"):
+  
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BryansWorldApp'*/[0m
+Started GET "/" for 127.0.0.1 at 2025-02-19 12:00:31 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BryansWorldApp'*/[0m
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 54.9ms | GC: 0.2ms)
+Completed 200 OK in 2021ms (Views: 62.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 12:02:02 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BryansWorldApp'*/[0m
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 36.8ms | GC: 0.0ms)
+Completed 200 OK in 1842ms (Views: 43.9ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-19 12:02:13 -0500
+Processing by PagesController#hobbies as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hobbies.html.erb within layouts/application
+  Rendered pages/hobbies.html.erb within layouts/application (Duration: 19.9ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 22.3ms | GC: 0.0ms)
+Completed 200 OK in 1143ms (Views: 23.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-02-19 12:02:16 -0500
+Processing by PagesController#welcome as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/welcome.html.erb within layouts/application
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.7ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | GC: 0.0ms)
+Completed 200 OK in 952ms (Views: 3.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-19 12:02:17 -0500
+Processing by PagesController#hobbies as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hobbies.html.erb within layouts/application
+  Rendered pages/hobbies.html.erb within layouts/application (Duration: 0.8ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | GC: 0.0ms)
+Completed 200 OK in 976ms (Views: 4.4ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/hobbies" for 127.0.0.1 at 2025-02-19 12:02:19 -0500
+Processing by PagesController#hobbies as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hobbies.html.erb within layouts/application
+  Rendered pages/hobbies.html.erb within layouts/application (Duration: 0.6ms | GC: 0.0ms)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | GC: 0.0ms)
+Completed 200 OK in 929ms (Views: 10.8ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='BryansWorldApp'*/[0m
