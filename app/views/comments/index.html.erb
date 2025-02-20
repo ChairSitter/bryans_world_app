@@ -1,0 +1,15 @@
+<main>
+    <section id="comments">
+        <h1>Comments</h1>
+        <p>Here are some comments from visitors to my site:</p>
+        <div id="comments-grid">
+            <% @comments.each do |comment| %>
+            <div id="comment">
+                <h2><%= comment.author %></h2>
+                <p><%= comment.content %></p>
+            </div>
+            <% end %>
+        </div>
+    </section>
+    <a href="/comments/new">Leave a comment</a>
+</main>

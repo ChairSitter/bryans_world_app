@@ -14,4 +14,7 @@ Rails.application.routes.draw do
   root to: "pages#welcome", as: :welcome
   get "hobbies", to: "pages#hobbies", as: :hobbies
   get "mindfulness", to: "pages#mindfulness", as: :mindfulness
+  get "comments", to: "comments#index", as: :comments
+  get "comments/new", to: "comments#new", as: :new_comment
+  post "comments", to: "comments#create"
 end
