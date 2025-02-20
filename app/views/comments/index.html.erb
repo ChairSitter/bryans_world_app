@@ -8,8 +8,10 @@
                 <h2><%= comment.author %></h2>
                 <p><%= comment.content %></p>
             </div>
+            <%# add a delete comment button:%>
+            <%= button_to 'Delete', comment, method: :delete, data: { confirm: 'Are you sure?' } %>
             <% end %>
         </div>
     </section>
-    <a href="/comments/new">Leave a comment</a>
+    <%= link_to "Leave a comment!", new_comment_path, "data-turbo-prefetch": "false"  %>
 </main>

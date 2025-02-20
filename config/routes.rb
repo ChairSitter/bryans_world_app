@@ -17,4 +17,5 @@ Rails.application.routes.draw do
   get "comments", to: "comments#index", as: :comments
   get "comments/new", to: "comments#new", as: :new_comment
   post "comments", to: "comments#create"
+  resources :comments, only: [ :destroy ]
 end
