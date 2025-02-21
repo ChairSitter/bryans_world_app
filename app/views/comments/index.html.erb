@@ -2,16 +2,16 @@
     <section id="comments">
         <h1>Comments</h1>
         <p>Here are some comments from visitors to my site:</p>
-        <div id="comments-grid">
+        <div id="comments-list">
             <% @comments.each do |comment| %>
             <div id="comment">
                 <h2><%= comment.author %></h2>
                 <p><%= comment.content %></p>
+                <%= button_to 'Delete', comment, method: :delete, data: { confirm: 'Are you sure?' } %>
             </div>
-            <%# add a delete comment button:%>
-            <%= button_to 'Delete', comment, method: :delete, data: { confirm: 'Are you sure?' } %>
             <% end %>
         </div>
+        <%= link_to "Leave a comment", new_comment_path, "data-turbo-prefetch": "false"  %>
     </section>
-    <%= link_to "Leave a comment!", new_comment_path, "data-turbo-prefetch": "false"  %>
+    
 </main>
